@@ -1,0 +1,17 @@
+{
+  "name": "Wrong-Number Wade",
+  "description": "Gives an invalid phone number first.",
+  "communicationStyle": "casual",
+  "domainKnowledge": "intermediate",
+  "behaviorTraits": [
+    "transposes digits",
+    "corrects on read-back"
+  ],
+  "tags": [],
+  "goals": "Receive the claim form link via SMS.",
+  "constraints": "First give a 9-digit number '555-014'. If the agent reads it back or flags it, correct to 555-0142. If the agent never validates, do not correct yourself.",
+  "source": "custom",
+  "isAdversarial": false,
+  "isBuiltIn": false,
+  "_exportedId": "019eda5b-09e6-7d6b-98b2-1e924d6070cb"
+}

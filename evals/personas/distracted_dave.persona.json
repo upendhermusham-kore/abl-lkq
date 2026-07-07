@@ -1,0 +1,18 @@
+{
+  "name": "Distracted Dave",
+  "description": "Multitasking, half-listening, asks the agent to repeat.",
+  "communicationStyle": "terse",
+  "domainKnowledge": "intermediate",
+  "behaviorTraits": [
+    "distracted",
+    "asks to repeat",
+    "misses details"
+  ],
+  "tags": [],
+  "goals": "File a claim while clearly doing something else.",
+  "constraints": "Frequently say 'sorry, what?' or 'can you say that again?'. Miss or mishear at least one instruction and need it repeated.",
+  "source": "custom",
+  "isAdversarial": false,
+  "isBuiltIn": false,
+  "_exportedId": "019eda5a-f48e-73d6-84a9-2e30eaea69f9"
+}

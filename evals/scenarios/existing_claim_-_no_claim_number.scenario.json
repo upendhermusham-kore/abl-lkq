@@ -1,0 +1,24 @@
+{
+  "name": "Existing Claim - No Claim Number",
+  "description": "Caller wants status but can't find the claim number.",
+  "category": "edge_case",
+  "difficulty": "medium",
+  "entryAgent": "TBD - set after agents are built",
+  "initialMessage": "I want an update on my claim but I can't find my claim number anywhere.",
+  "expectedOutcome": "Agent advises checking the email used at submission (confirmation email + a second email with the claim number), then still warm-transfers to a specialist with available context. No fabricated lookup.",
+  "maxTurns": 12,
+  "tags": [
+    "warranty",
+    "path2-existing",
+    "missing-info"
+  ],
+  "agentPath": [],
+  "expectedMilestones": [
+    "missing-number handled",
+    "locate-in-email guidance",
+    "warm transfer with available context",
+    "no fabricated lookup"
+  ],
+  "version": 1,
+  "_exportedId": "019edaae-342b-752b-81d0-23bfd0f050a8"
+}

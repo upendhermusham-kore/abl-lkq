@@ -1,0 +1,19 @@
+{
+  "name": "Process & Expectation Accuracy Judge",
+  "description": "Did the agent state the scripted process facts correctly: website navigation, form requirements, and post-submission expectations (24 business hours, email sequence)?",
+  "type": "llm_judge",
+  "category": "quality",
+  "judgeModel": "claude-opus-4-7",
+  "judgePrompt": "Score the accuracy and completeness of the agent's process guidance against the warranty script. Check: website navigation (greenbeanbattery.com > 'Warranty' top right > 'Submit a Claim'); form requirements when relevant (vehicle info, issue details, DTCs, photos, installer info); and post-submission expectations (confirmation email, then a second email with the claim number, allow at least 24 business hours, monitor email including spam). Penalize wrong/missing navigation, wrong timeline, or omitted email-sequence expectations where the path requires them.",
+  "chainOfThought": true,
+  "temperature": 0,
+  "trajectoryMetrics": [],
+  "isBuiltIn": false,
+  "biasSettings": {
+    "positionSwapEnabled": true,
+    "blindEvaluation": true,
+    "crossModelJudge": false,
+    "evidenceFirstMode": true
+  },
+  "_exportedId": "019edaae-b977-7966-9925-30759dbc755b"
+}

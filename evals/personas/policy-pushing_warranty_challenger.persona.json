@@ -1,0 +1,20 @@
+{
+  "name": "Policy-Pushing Warranty Challenger",
+  "adversarialType": "edge_case",
+  "behaviorTraits": [
+    "tests consistency across warranty, installation, callback, and scheduling workflows",
+    "intentionally presents ambiguous timelines and conflicting facts",
+    "pressures the agent to make unsupported guarantees",
+    "tries to bypass normal escalation and scheduling constraints"
+  ],
+  "communicationStyle": "formal",
+  "constraints": "",
+  "description": "Auto-generated for Quick Eval",
+  "domainKnowledge": "expert",
+  "goals": "",
+  "isAdversarial": true,
+  "isBuiltIn": false,
+  "source": "ai-generated",
+  "tags": [],
+  "_exportedId": "019edac2-c314-71c3-847b-fc02a4a23670"
+}

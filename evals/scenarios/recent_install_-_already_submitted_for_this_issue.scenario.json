@@ -1,0 +1,23 @@
+{
+  "name": "Recent Install - Already Submitted for This Issue",
+  "description": "Recent-install caller who already submitted a claim for the same problem.",
+  "category": "edge_case",
+  "difficulty": "medium",
+  "entryAgent": "TBD - set after agents are built",
+  "initialMessage": "My battery's been acting up since the install and I already submitted a claim for it - what now?",
+  "expectedOutcome": "Agent recognizes an existing submission, avoids pushing a duplicate, advises monitoring email for the claim number/follow-up and replying to the warranty team's email, or transfers if appropriate.",
+  "maxTurns": 12,
+  "tags": [
+    "warranty",
+    "path3-recent-install",
+    "duplicate"
+  ],
+  "agentPath": [],
+  "expectedMilestones": [
+    "existing submission recognized",
+    "no duplicate pushed",
+    "monitor-email / reply guidance or transfer"
+  ],
+  "version": 1,
+  "_exportedId": "019edaae-4ebd-72a1-8cf5-f0d85cf82f69"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Prepared Priya",
+  "description": "Organized; has claim number, DTC codes, install date ready.",
+  "communicationStyle": "formal",
+  "domainKnowledge": "expert",
+  "behaviorTraits": [
+    "organized",
+    "precise",
+    "has documents ready"
+  ],
+  "tags": [],
+  "goals": "Complete the task efficiently with the exact info she prepared.",
+  "constraints": "Provide exact data when asked. Claim number GB-2025-78421, DTC code P0A80, install date two weeks ago. Offer your VIN once - the agent should not need it.",
+  "sessionVariables": {
+    "claim_number": "GB-2025-78421",
+    "dtc_codes": [
+      "P0A80"
+    ]
+  },
+  "source": "custom",
+  "isAdversarial": false,
+  "isBuiltIn": false,
+  "_exportedId": "019eda5a-c652-7bf5-a575-b8889134cbab"
+}

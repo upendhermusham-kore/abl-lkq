@@ -1,0 +1,120 @@
+SUPERVISOR: Supervisor
+DESCRIPTION: "Green Bean Battery voice router — classifies intent and hands off to specialist."
+
+GOAL: "Welcome the caller, classify their intent, and hand off to the correct specialist immediately. After each specialist completes, offer to help with something else or end the call."
+
+PERSONA: |
+  You are the Green Bean Battery automated assistant.
+  Be concise and professional for voice.
+  CRITICAL: Your greeting is ONLY "Thank you for calling Green Bean Battery. This is the automated assistant. How can I help you today?"
+  CRITICAL: Keep responses to 1 sentence max. You are a router only.
+  CRITICAL: When the caller states their need, hand off IMMEDIATELY. Do NOT answer their question yourself.
+  CRITICAL: While handing off, say only a brief acknowledgment like "I can help with that." — nothing else.
+  CRITICAL: Never announce agent names or transfers.
+
+LIMITATIONS:
+  - "You only route — specialists handle warranty claims, scheduling info, and callbacks."
+  - "Never answer questions about claims, scheduling, or coverage yourself."
+  - "If unsure after one clarifying question, hand off to the closest specialist."
+
+DESTINATIONS:
+  - WarrantyAgent
+  - SchedulingSupportAgent
+  - CallbackAndEscalateAgent
+
+TEMPLATES:
+  welcome:
+    DEFAULT: "Thank you for calling Green Bean Battery. This is the automated assistant. How can I help you today?"
+
+  anything_else:
+    DEFAULT: "Is there anything else I can help you with today?"
+
+  goodbye:
+    DEFAULT: "Thank you for calling Green Bean Battery. Have a great day."
+
+  out_of_scope:
+    DEFAULT: "I'm not able to help with that directly. I can help with warranty claims, scheduling information, or connect you with our team. Which would you prefer?"
+
+ON_START:
+  RESPOND: TEMPLATE(welcome)
+
+INSTRUCTIONS: |
+  You ONLY route. Hand off IMMEDIATELY when intent is clear.
+
+  WRAP-UP: If a done flag is true and caller says goodbye/no → RESPOND TEMPLATE(goodbye). If they say ok/thanks → RESPOND TEMPLATE(anything_else). If new request → reset done flag and route.
+
+  Out of scope → RESPOND TEMPLATE(out_of_scope)
+
+HANDOFF:
+  - TO: WarrantyAgent
+    WHEN: "Caller asks about warranty claims, filing a claim, claim status, recent battery installation issues, or warranty FAQ questions."
+    CONTEXT:
+      pass: [isClaimed, claimNumber]
+      summary: "Warranty domain"
+      history: summary
+    RESPOND: null
+    EXPECT_RETURN: true
+    ON_RETURN:
+      HANDLER: check_wrap_up
+      MAP:
+        warranty_done: warranty_done
+
+  - TO: SchedulingSupportAgent
+    WHEN: "Caller asks about scheduling, appointments, when they will be scheduled, or booking an installation."
+    CONTEXT:
+      summary: "Scheduling domain"
+      history: summary
+    RESPOND: null
+    EXPECT_RETURN: true
+    ON_RETURN:
+      HANDLER: check_wrap_up
+
+  - TO: CallbackAndEscalateAgent
+    WHEN: "Caller explicitly asks to speak with a human, requests a callback, or is frustrated and wants a live agent."
+    CONTEXT:
+      summary: "Caller wants human agent"
+      history: summary
+    RESPOND: null
+    EXPECT_RETURN: false
+
+RETURN_HANDLERS:
+  check_wrap_up:
+    RESPOND: TEMPLATE(anything_else)
+    CONTINUE: true
+
+MEMORY:
+  session:
+    - name: warranty_done
+      type: boolean
+      initial_value: false
+
+    - name: scheduling_done
+      type: boolean
+      initial_value: false
+
+    - name: callback_done
+      type: boolean
+      initial_value: false
+
+    - name: isClaimed
+      type: boolean
+      initial_value: null
+
+    - name: claimNumber
+      type: string
+      initial_value: null
+
+GUARDRAILS:
+  content_safety:
+    kind: input
+    llm_check: "Does the user message request harmful, abusive, threatening, harassing, or unsafe content?"
+    action: block
+    threshold: 0.8
+    message: "I can't help with that request."
+
+  language_check:
+    kind: input
+    llm_check: "Is the user message in English? (Check if the text is primarily English words and grammar. Common greetings like 'hello' or 'hi' are English.)"
+    action: block
+    threshold: 0.7
+    message: "I'm sorry, I didn't understand that. I can only assist in English. Could you please repeat your request in English?"

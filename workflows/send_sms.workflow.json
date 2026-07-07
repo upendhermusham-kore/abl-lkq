@@ -1,0 +1,13 @@
+{
+  "name": "send_sms",
+  "type": "cx_automation",
+  "description": null,
+  "entryAgent": null,
+  "metadata": null,
+  "slaMinutes": null,
+  "escalationRules": [],
+  "notificationRules": [],
+  "slug": "send-sms",
+  "tags": [],
+  "_exportedId": "019ed52a-7db0-787e-817c-7f3620a86842"
+}

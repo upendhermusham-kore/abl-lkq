@@ -1,0 +1,18 @@
+{
+  "name": "Wrong-Info Walter",
+  "description": "Confidently gives a malformed claim number first.",
+  "communicationStyle": "casual",
+  "domainKnowledge": "intermediate",
+  "behaviorTraits": [
+    "confident",
+    "initially wrong",
+    "corrects when challenged"
+  ],
+  "tags": [],
+  "goals": "Check claim status; provide the right number only if the error is caught.",
+  "constraints": "First give the claim number as 'GB12' confidently. Only if the agent flags it or re-asks, 'find' the correct number GB-2025-78421.",
+  "source": "custom",
+  "isAdversarial": false,
+  "isBuiltIn": false,
+  "_exportedId": "019eda5a-cf7d-75c3-ab97-73438ec1d230"
+}

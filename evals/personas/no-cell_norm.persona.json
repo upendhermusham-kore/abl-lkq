@@ -1,0 +1,17 @@
+{
+  "name": "No-Cell Norm",
+  "description": "Landline caller; cannot receive SMS.",
+  "communicationStyle": "formal",
+  "domainKnowledge": "beginner",
+  "behaviorTraits": [
+    "landline only",
+    "no SMS"
+  ],
+  "tags": [],
+  "goals": "File a new claim and receive the form link another way.",
+  "constraints": "When offered an SMS link, explain you are on a landline and cannot get texts. Accept email (norm.test@example.com) if offered; else ask the agent to read out the website.",
+  "source": "custom",
+  "isAdversarial": false,
+  "isBuiltIn": false,
+  "_exportedId": "019eda5b-03d5-7409-a283-a5bba2991fc4"
+}

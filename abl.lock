@@ -1,0 +1,559 @@
+{
+  "lockfile_version": "2.0",
+  "generated_at": "2026-07-07T05:56:44.650Z",
+  "agents": {
+    "Supervisor": {
+      "version": "1.0",
+      "source_hash": "2a1575f2dca8898f",
+      "status": "active"
+    },
+    "WarrantyAgent": {
+      "version": "1.0",
+      "source_hash": "d3ab3b40fe0443a7",
+      "status": "active"
+    },
+    "InstallIssueAgent": {
+      "version": "1.0",
+      "source_hash": "20a89f38fe95ba06",
+      "status": "active"
+    },
+    "CallbackAndEscalateAgent": {
+      "version": "1.0",
+      "source_hash": "672d8567ad4b0285",
+      "status": "active"
+    },
+    "SchedulingSupportAgent": {
+      "version": "1.0",
+      "source_hash": "d3f3e2ccc683cd66",
+      "status": "active"
+    }
+  },
+  "tools": {
+    "tools/send_sms_wf.tools.abl": {
+      "source_hash": "cb83e6feb7648ad8"
+    },
+    "tools/send_mail_wf.tools.abl": {
+      "source_hash": "c322f18c943d9bd7"
+    },
+    "tools/send_sms.tools.abl": {
+      "source_hash": "1d205960b8a791e1"
+    },
+    "tools/send_email.tools.abl": {
+      "source_hash": "9842027d059091b0"
+    }
+  },
+  "configs": {
+    "config/runtime-config.json": {
+      "source_hash": "702d750e7a6bb1dd"
+    },
+    "config/project-model-configs/gpt_5_4.model-config.json": {
+      "source_hash": "cf06d3c3fd32aba0"
+    }
+  },
+  "connections": {},
+  "guardrails": {},
+  "workflows": {
+    "workflows/send_sms.workflow.json": {
+      "source_hash": "de096df2d785fa68"
+    },
+    "workflows/send_mail.workflow.json": {
+      "source_hash": "e58a49d4c61ed371"
+    },
+    "workflows/versions/send_sms/draft.version.json": {
+      "source_hash": "f10f475bbcb13f01",
+      "version": "draft"
+    },
+    "workflows/versions/send_mail/draft.version.json": {
+      "source_hash": "3dedac392ccae0aa",
+      "version": "draft"
+    }
+  },
+  "evals": {
+    "evals/straightforward_smart_device_installation_help___2_paths_coverage_suite/eval-set.json": {
+      "source_hash": "2324e5c6fb53ceae"
+    },
+    "evals/reschedule_installation_after_missed_appointment___2_paths_coverage_suite/eval-set.json": {
+      "source_hash": "ade4656f6762cfa4"
+    },
+    "evals/condo_window_reschedule_with_tight_access_rules___2_paths_coverage_suite/eval-set.json": {
+      "source_hash": "11d0af50d01ce535"
+    },
+    "evals/straightforward_installation_appointment_reschedule___2_paths_coverage_suite/eval-set.json": {
+      "source_hash": "ed3c359c2ca2655e"
+    },
+    "evals/test/eval-set.json": {
+      "source_hash": "d52f301410f3f73f"
+    },
+    "evals/scenarios/unjustified_immediate_escalation_demand.scenario.json": {
+      "source_hash": "10b7e1d4700c6cf1"
+    },
+    "evals/scenarios/terse_warranty_coverage_clarification.scenario.json": {
+      "source_hash": "6e5a1a6ab372528d"
+    },
+    "evals/scenarios/straightforward_smart_device_installation_help.scenario.json": {
+      "source_hash": "3d85dd7cd1a8cae4"
+    },
+    "evals/scenarios/new_claim_-_happy_path__sms_link_.scenario.json": {
+      "source_hash": "bc7b0e406f1f1e0d"
+    },
+    "evals/scenarios/test_scenario.scenario.json": {
+      "source_hash": "2bb1bf1b7382ffa6"
+    },
+    "evals/scenarios/new_claim_-_email_link__declines_sms_.scenario.json": {
+      "source_hash": "dfd92636b39cd652"
+    },
+    "evals/scenarios/new_claim_-_prefers_a_human_agent.scenario.json": {
+      "source_hash": "c8f19f60fedef388"
+    },
+    "evals/scenarios/new_claim_-_duplicate_submission_attempt.scenario.json": {
+      "source_hash": "f3ada363806ec3c5"
+    },
+    "evals/scenarios/new_claim_-_landline__no_sms.scenario.json": {
+      "source_hash": "a8ce5204eb674607"
+    },
+    "evals/scenarios/new_claim_-_no_email__sms_only.scenario.json": {
+      "source_hash": "591c58af3e521d85"
+    },
+    "evals/scenarios/new_claim_-_no_sms_and_no_email.scenario.json": {
+      "source_hash": "b9add32db53dd294"
+    },
+    "evals/scenarios/new_claim_-_invalid_phone_number.scenario.json": {
+      "source_hash": "7bbaf2c8efbc7868"
+    },
+    "evals/scenarios/new_claim_-_spoken_email_capture.scenario.json": {
+      "source_hash": "e337b16aeeb65425"
+    },
+    "evals/scenarios/new_claim_-_channel_change_after_send.scenario.json": {
+      "source_hash": "91a36feb4f48ee48"
+    },
+    "evals/scenarios/new_claim_-_link_never_arrived__re-send_.scenario.json": {
+      "source_hash": "054d436cf4635d8c"
+    },
+    "evals/scenarios/new_claim_-_form_faq_handling.scenario.json": {
+      "source_hash": "924ae6193f51751b"
+    },
+    "evals/scenarios/new_claim_-_website_navigation_help.scenario.json": {
+      "source_hash": "76bb349cf6b5108d"
+    },
+    "evals/scenarios/existing_claim_-_happy_path__warm_transfer_.scenario.json": {
+      "source_hash": "fc4e1022017a3ecf"
+    },
+    "evals/scenarios/existing_claim_-_no_claim_number.scenario.json": {
+      "source_hash": "8c583cb2538981ef"
+    },
+    "evals/scenarios/existing_claim_-_invalid_claim_number_format.scenario.json": {
+      "source_hash": "f7a91d7a1dd76126"
+    },
+    "evals/scenarios/existing_claim_-_fragmented_number_read-back.scenario.json": {
+      "source_hash": "a8759625b8494104"
+    },
+    "evals/scenarios/existing_claim_-_satisfied_quick_close.scenario.json": {
+      "source_hash": "cad061bcfb48b990"
+    },
+    "evals/scenarios/existing_claim_-_not_satisfied__transfer.scenario.json": {
+      "source_hash": "8720e4084960b0fc"
+    },
+    "evals/scenarios/existing_claim_-_another_customer_s_claim_probe.scenario.json": {
+      "source_hash": "ec7e925a37417629"
+    },
+    "evals/scenarios/recent_install_-_cel_on__has_codes.scenario.json": {
+      "source_hash": "964973e5c30ec667"
+    },
+    "evals/scenarios/recent_install_-_cel_on__no_codes.scenario.json": {
+      "source_hash": "83fe1e0c50f378f7"
+    },
+    "evals/scenarios/recent_install_-_no_check_engine_light.scenario.json": {
+      "source_hash": "02e0832eb22c59e6"
+    },
+    "evals/scenarios/recent_install_-_already_submitted_for_this_issue.scenario.json": {
+      "source_hash": "ad72ac5388d6bb60"
+    },
+    "evals/scenarios/recent_install_-_refuses_to_submit_another.scenario.json": {
+      "source_hash": "a0cad501d19b979c"
+    },
+    "evals/scenarios/recent_install_-_direct_to_form_with_documentation.scenario.json": {
+      "source_hash": "94e353ce1c1f5ed1"
+    },
+    "evals/scenarios/recent_install_-_non-battery_dtc__p0420_.scenario.json": {
+      "source_hash": "fcab24991a42044e"
+    },
+    "evals/scenarios/recent_install_-_unknown_dtc__p9999_.scenario.json": {
+      "source_hash": "fce0e4449891709b"
+    },
+    "evals/scenarios/recent_install_-_issue_within_48_hours.scenario.json": {
+      "source_hash": "a3eaca88b039d5a6"
+    },
+    "evals/scenarios/recent_install_-_diy_installation.scenario.json": {
+      "source_hash": "bd1acc973974b209"
+    },
+    "evals/scenarios/recent_install_-_empathy_under_distress.scenario.json": {
+      "source_hash": "7836a37a33b78bd0"
+    },
+    "evals/scenarios/routing_-_wrong_path_self-selection.scenario.json": {
+      "source_hash": "efedb039e6dc086f"
+    },
+    "evals/scenarios/routing_-_mid-call_path_switch.scenario.json": {
+      "source_hash": "68eaccdcacad57a3"
+    },
+    "evals/scenarios/routing_-_ambiguous_opening_intent.scenario.json": {
+      "source_hash": "f8bef08bbd780f75"
+    },
+    "evals/scenarios/routing_-_recent_install___wants_status.scenario.json": {
+      "source_hash": "197a56c1148f9f80"
+    },
+    "evals/scenarios/robustness_-_prompt_injection_mid-claim.scenario.json": {
+      "source_hash": "22e3226945445b98"
+    },
+    "evals/scenarios/robustness_-_pii_volunteered.scenario.json": {
+      "source_hash": "9a750df7e006f644"
+    },
+    "evals/scenarios/robustness_-_free-replacement_manipulation.scenario.json": {
+      "source_hash": "e45540782ddbe620"
+    },
+    "evals/scenarios/robustness_-_medical_safety_question.scenario.json": {
+      "source_hash": "ae2056fa6c0e2728"
+    },
+    "evals/scenarios/robustness_-_legal_threat___fault_admission.scenario.json": {
+      "source_hash": "768ee84a25a6b0a3"
+    },
+    "evals/scenarios/robustness_-_endless_loop_protection.scenario.json": {
+      "source_hash": "e89664f7cc107733"
+    },
+    "evals/scenarios/robustness_-_garbage___robocall_input.scenario.json": {
+      "source_hash": "d8aa6d414f943279"
+    },
+    "evals/scenarios/robustness_-_off-topic_digressions.scenario.json": {
+      "source_hash": "a97f89c297ab4c94"
+    },
+    "evals/scenarios/robustness_-_frustrated_caller_de-escalation.scenario.json": {
+      "source_hash": "5afe223574afe3ad"
+    },
+    "evals/scenarios/language_-_spanish_happy_path.scenario.json": {
+      "source_hash": "0cf99574fdb07f0e"
+    },
+    "evals/scenarios/language_-_french_canadian_happy_path.scenario.json": {
+      "source_hash": "2e02089371d9f871"
+    },
+    "evals/scenarios/language_-_code-switch_mid-call.scenario.json": {
+      "source_hash": "ce0416e744c7c39b"
+    },
+    "evals/scenarios/real-world_-_proxy_caller_for_family_member.scenario.json": {
+      "source_hash": "4025b70a9db4e143"
+    },
+    "evals/scenarios/real-world_-_distracted_caller_needs_repeats.scenario.json": {
+      "source_hash": "cf499d474fe15692"
+    },
+    "evals/scenarios/coverage_challenge_with_escalation_pressure.scenario.json": {
+      "source_hash": "18f789c4af94ec7f"
+    },
+    "evals/scenarios/formal_install_troubleshooting_with_missing_details.scenario.json": {
+      "source_hash": "65bf8ed78a403123"
+    },
+    "evals/scenarios/concise_reschedule_request_with_time_constraints.scenario.json": {
+      "source_hash": "b3655dbda8749077"
+    },
+    "evals/scenarios/angry_customer_demands_immediate_refund_and_callback_for_out-of-scope_issue.scenario.json": {
+      "source_hash": "f08fcce0b471f124"
+    },
+    "evals/scenarios/reschedule_installation_after_missed_appointment.scenario.json": {
+      "source_hash": "9579e4b6f688781b"
+    },
+    "evals/scenarios/ambiguous_post-installation_failure_requiring_supervisor_routing.scenario.json": {
+      "source_hash": "b5e47867f8b7fdb9"
+    },
+    "evals/scenarios/condo_window_reschedule_with_tight_access_rules.scenario.json": {
+      "source_hash": "bed9da171489a141"
+    },
+    "evals/scenarios/verbose_post-install_troubleshooting_with_missing_details.scenario.json": {
+      "source_hash": "4181ad56fcb72d02"
+    },
+    "evals/scenarios/expert_user_presses_for_unsupported_cross-team_escalation.scenario.json": {
+      "source_hash": "0b366c4ab6c64276"
+    },
+    "evals/scenarios/beginner_confusion_over_post-install_failure_vs_warranty.scenario.json": {
+      "source_hash": "34cf6b8e9901104c"
+    },
+    "evals/scenarios/same-day_reschedule_after_missed_installer_window.scenario.json": {
+      "source_hash": "2ff6ca92681fa45e"
+    },
+    "evals/scenarios/expert_user_pressures_for_manual_override_and_immediate_escalation.scenario.json": {
+      "source_hash": "163a4c63c2d62a96"
+    },
+    "evals/scenarios/property_manager_reports_installer_no-show_with_incomplete_account_details.scenario.json": {
+      "source_hash": "ecdd0cdb32a1840b"
+    },
+    "evals/scenarios/straightforward_installation_appointment_reschedule.scenario.json": {
+      "source_hash": "74905fdb4f961286"
+    },
+    "evals/scenarios/customer_challenges_expired_coverage_and_demands_unsupported_warranty_exception.scenario.json": {
+      "source_hash": "c7d43d318b084b17"
+    },
+    "evals/scenarios/test.scenario.json": {
+      "source_hash": "af9d0b73fa61c272"
+    },
+    "evals/personas/polite_homeowner_needing_installation_help.persona.json": {
+      "source_hash": "d89273e72f748e1f"
+    },
+    "evals/personas/manipulative_escalation_seeker.persona.json": {
+      "source_hash": "d7e36f75f5af1fcb"
+    },
+    "evals/personas/busy_customer_requesting_warranty_clarification.persona.json": {
+      "source_hash": "79f50a8cf66fc4bb"
+    },
+    "evals/personas/calm_cooperative_carol.persona.json": {
+      "source_hash": "3c53b279bfd1a9f2"
+    },
+    "evals/personas/frustrated_freddy.persona.json": {
+      "source_hash": "bfd3799857d2cd40"
+    },
+    "evals/personas/anxious_annie.persona.json": {
+      "source_hash": "57aa4929fd95eeda"
+    },
+    "evals/personas/impatient_ivan.persona.json": {
+      "source_hash": "390dd029a90c5867"
+    },
+    "evals/personas/skeptical_sam.persona.json": {
+      "source_hash": "40f3b2155d82ff77"
+    },
+    "evals/personas/distressed_dana.persona.json": {
+      "source_hash": "cb74cd6de5ccbeb9"
+    },
+    "evals/personas/angry-from-start_fiona.persona.json": {
+      "source_hash": "eb12d1f8789af062"
+    },
+    "evals/personas/prepared_priya.persona.json": {
+      "source_hash": "c8cf275b424d7adc"
+    },
+    "evals/personas/no-info_nathan.persona.json": {
+      "source_hash": "5fbeb8787d3225ae"
+    },
+    "evals/personas/partial-info_parul.persona.json": {
+      "source_hash": "8b334a3e01270a1d"
+    },
+    "evals/personas/wrong-info_walter.persona.json": {
+      "source_hash": "923c509a2e15929e"
+    },
+    "evals/personas/dashboard-light-only_diana.persona.json": {
+      "source_hash": "33e31a34a14278af"
+    },
+    "evals/personas/code-reader_carl.persona.json": {
+      "source_hash": "efad69b2255a8eb1"
+    },
+    "evals/personas/wrong-code_wendy.persona.json": {
+      "source_hash": "180840468063dc2c"
+    },
+    "evals/personas/made-up-code_mike.persona.json": {
+      "source_hash": "3e22095207db7556"
+    },
+    "evals/personas/rambling_rita.persona.json": {
+      "source_hash": "27608047114dc7fd"
+    },
+    "evals/personas/vague_vincent.persona.json": {
+      "source_hash": "9c4951eb26956ffb"
+    },
+    "evals/personas/wrong-path_wanda.persona.json": {
+      "source_hash": "20ca3c1b1f343d05"
+    },
+    "evals/personas/mid-flow_switcher_maya.persona.json": {
+      "source_hash": "d6fc9a7b14f9b096"
+    },
+    "evals/personas/off-topic_oliver.persona.json": {
+      "source_hash": "1171fd49f3709d97"
+    },
+    "evals/personas/proxy-caller_pradeep.persona.json": {
+      "source_hash": "214b1fef30e768de"
+    },
+    "evals/personas/elderly_edna.persona.json": {
+      "source_hash": "01dd45d7b5c664cc"
+    },
+    "evals/personas/distracted_dave.persona.json": {
+      "source_hash": "dfb75101e93ec1e1"
+    },
+    "evals/personas/non-native_nadia.persona.json": {
+      "source_hash": "c96d6d4d0573fa88"
+    },
+    "evals/personas/spanish-only_sofia.persona.json": {
+      "source_hash": "188a00b20b06e9cd"
+    },
+    "evals/personas/french-canadian_francois.persona.json": {
+      "source_hash": "069e6ac2ad5b777c"
+    },
+    "evals/personas/code-switching_carlos.persona.json": {
+      "source_hash": "60e0b155e15f5826"
+    },
+    "evals/personas/no-cell_norm.persona.json": {
+      "source_hash": "fdf2d93382d9fb9e"
+    },
+    "evals/personas/no-email_elsa.persona.json": {
+      "source_hash": "9d6f88d93c466a40"
+    },
+    "evals/personas/wrong-number_wade.persona.json": {
+      "source_hash": "056d5005303f351b"
+    },
+    "evals/personas/mumbled-email_mia.persona.json": {
+      "source_hash": "20c2fdeb337dd9e8"
+    },
+    "evals/personas/mind-changer_chandra.persona.json": {
+      "source_hash": "57b9f5ea8d2631d5"
+    },
+    "evals/personas/privacy-refuser_petra.persona.json": {
+      "source_hash": "22f9e139d2a62695"
+    },
+    "evals/personas/prompt-injection_pete.persona.json": {
+      "source_hash": "b1daa846d2e6b95f"
+    },
+    "evals/personas/data-fisher_daria.persona.json": {
+      "source_hash": "873fb4fa6c6534db"
+    },
+    "evals/personas/pii-dumper_paul.persona.json": {
+      "source_hash": "4553fbd6ba3f6da8"
+    },
+    "evals/personas/free-stuff_frank.persona.json": {
+      "source_hash": "0722c851483496fa"
+    },
+    "evals/personas/medical-question_mary.persona.json": {
+      "source_hash": "4a128f6513fd103a"
+    },
+    "evals/personas/legal-threat_larry.persona.json": {
+      "source_hash": "c777ceecb6ee168c"
+    },
+    "evals/personas/endless-loop_eddie.persona.json": {
+      "source_hash": "eda807502d49c4ad"
+    },
+    "evals/personas/robo-caller_robbie.persona.json": {
+      "source_hash": "82409c4c3782d623"
+    },
+    "evals/personas/clipped_chris.persona.json": {
+      "source_hash": "06225eb3f7e79ab9"
+    },
+    "evals/personas/boundary-testing_bianca.persona.json": {
+      "source_hash": "32b95a6a5d5761ad"
+    },
+    "evals/personas/methodical_meredith.persona.json": {
+      "source_hash": "552dee6f896cba08"
+    },
+    "evals/personas/olivia_chen.persona.json": {
+      "source_hash": "a92a20fda8aed9be"
+    },
+    "evals/personas/marcus_rivera.persona.json": {
+      "source_hash": "b25d0a738c57d632"
+    },
+    "evals/personas/nina_voss.persona.json": {
+      "source_hash": "de6b932c7a899ef6"
+    },
+    "evals/personas/escalation_bait_tester.persona.json": {
+      "source_hash": "0785a45769442319"
+    },
+    "evals/personas/concise_condo_scheduler.persona.json": {
+      "source_hash": "25c241d189bdf39e"
+    },
+    "evals/personas/talkative_first-time_owner.persona.json": {
+      "source_hash": "86b960ebadb31050"
+    },
+    "evals/personas/first-time_fixer_lila.persona.json": {
+      "source_hash": "00fe4d71a6e255c7"
+    },
+    "evals/personas/concise_calendar_quinn.persona.json": {
+      "source_hash": "6b5f90c1e4c3b9fb"
+    },
+    "evals/personas/override-seeking_glen.persona.json": {
+      "source_hash": "3c9b9e093de23cdd"
+    },
+    "evals/personas/cooperative_homeowner.persona.json": {
+      "source_hash": "921d863adba5e2e3"
+    },
+    "evals/personas/policy-pushing_warranty_challenger.persona.json": {
+      "source_hash": "53f8d75ea5069a8a"
+    },
+    "evals/personas/busy_property_manager_with_fragmented_info.persona.json": {
+      "source_hash": "a502127ebe1c0c92"
+    },
+    "evals/personas/test.persona.json": {
+      "source_hash": "2fe914a1e023ca88"
+    },
+    "evals/personas/direct_deadline_derek.persona.json": {
+      "source_hash": "00adb9a0c76cf7aa"
+    },
+    "evals/personas/storytelling_newcomer_stella.persona.json": {
+      "source_hash": "58d66b1074ddfb91"
+    },
+    "evals/personas/escalation_shortcut_shane.persona.json": {
+      "source_hash": "9eba11f6bcefeac4"
+    },
+    "evals/personas/voiceuser.persona.json": {
+      "source_hash": "5ee4a4ce7f37882e"
+    },
+    "evals/evaluators/response_quality.evaluator.json": {
+      "source_hash": "601f49dc071d2b94"
+    },
+    "evals/evaluators/safety___compliance.evaluator.json": {
+      "source_hash": "e272e0a3727f9bd7"
+    },
+    "evals/evaluators/task_efficiency.evaluator.json": {
+      "source_hash": "d13e5fcb067debac"
+    },
+    "evals/evaluators/responsequality.evaluator.json": {
+      "source_hash": "3f4c70271ad4afa2"
+    },
+    "evals/evaluators/groundedness___no-hallucination_judge.evaluator.json": {
+      "source_hash": "951ad4a07222ee7f"
+    },
+    "evals/evaluators/warranty_boundary_judge.evaluator.json": {
+      "source_hash": "f1e569be23554b10"
+    },
+    "evals/evaluators/empathy___tone_judge.evaluator.json": {
+      "source_hash": "50eac8dd5f837aa1"
+    },
+    "evals/evaluators/handoff___milestone_trajectory_judge.evaluator.json": {
+      "source_hash": "41af54deab90f79a"
+    },
+    "evals/evaluators/language_parity_judge.evaluator.json": {
+      "source_hash": "06604b1459f7eab0"
+    },
+    "evals/evaluators/contact_capture___confirmation_judge.evaluator.json": {
+      "source_hash": "ee041fa3ba70f37c"
+    },
+    "evals/evaluators/pii_handling_judge.evaluator.json": {
+      "source_hash": "e1dce5e0212ce179"
+    },
+    "evals/evaluators/escalation_appropriateness_judge.evaluator.json": {
+      "source_hash": "f1725c2e52c31e2d"
+    },
+    "evals/evaluators/exploratory_behavior_recorder__human_review_.evaluator.json": {
+      "source_hash": "66b43f9ef432c8d2"
+    },
+    "evals/evaluators/path_routing_accuracy_judge.evaluator.json": {
+      "source_hash": "b907698a7cb5a268"
+    },
+    "evals/evaluators/process___expectation_accuracy_judge.evaluator.json": {
+      "source_hash": "5a6e547737cf6f27"
+    },
+    "evals/evaluators/test.evaluator.json": {
+      "source_hash": "e2090287e5afa279"
+    }
+  },
+  "search": {},
+  "channels": {
+    "channels/lkq_rt_voice.channel.json": {
+      "source_hash": "04456e7f45480497"
+    },
+    "channels/lkq_pipeline.channel.json": {
+      "source_hash": "0b5fd18814f4056b"
+    }
+  },
+  "vocabulary": {},
+  "behavior_profiles": {},
+  "layer_hashes": {
+    "core": "73d69962978dec57e0272b5e4486f2054cda2aebacbe96056b26048bb646dae4",
+    "connections": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "prompts": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "guardrails": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "workflows": "89bf3e988db8ab8d1d2dc1a147487659d93fe27056349324ffedc02ece0e7f1d",
+    "evals": "6b76f085465ce7f65ec752b92addfbd758b0802a6a75b761b08a45c8c6191823",
+    "search": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "channels": "c94186f93255a5c5f2a2edee151522ef4eed158516774b3402dc34509225fe72",
+    "vocabulary": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tables": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "integrity": "96c23b237d48195f9d40aab9f0b514a8c461583dbacac25eabd50150474a3bae"
+}

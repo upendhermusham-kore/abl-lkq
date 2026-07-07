@@ -1,0 +1,25 @@
+{
+  "name": "Recent Install - No Check Engine Light",
+  "description": "Recent-install caller with a 'Check Hybrid System' message but no CEL.",
+  "category": "edge_case",
+  "difficulty": "medium",
+  "entryAgent": "TBD - set after agents are built",
+  "initialMessage": "There's no check engine light, but my dash shows a 'Check Hybrid System' message since the install.",
+  "expectedOutcome": "Agent explains DTCs may not be available without a CEL, that hybrid battery failures typically generate 'P' codes, that 'Check Hybrid System' covers 200+ components and doesn't automatically mean the battery, and that a licensed mechanic must diagnose it.",
+  "maxTurns": 14,
+  "tags": [
+    "warranty",
+    "path3-recent-install",
+    "diagnostic"
+  ],
+  "agentPath": [],
+  "expectedMilestones": [
+    "no-CEL branch",
+    "P-code explanation",
+    "200+ components explained",
+    "no battery-fault assumption",
+    "licensed-mechanic guidance"
+  ],
+  "version": 1,
+  "_exportedId": "019edaae-4bca-7249-b22f-d4aa54fdb8b9"
+}

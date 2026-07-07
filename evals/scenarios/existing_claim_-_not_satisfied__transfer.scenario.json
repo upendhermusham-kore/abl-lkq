@@ -1,0 +1,23 @@
+{
+  "name": "Existing Claim - Not Satisfied, Transfer",
+  "description": "Caller is not satisfied and needs the specialist.",
+  "category": "handoff",
+  "difficulty": "medium",
+  "entryAgent": "TBD - set after agents are built",
+  "initialMessage": "No, that's not good enough - I need actual answers about where my claim stands right now.",
+  "expectedOutcome": "Agent recognizes dissatisfaction and warm-transfers to the Warranty queue with context, setting the expectation the specialist will assist directly.",
+  "maxTurns": 10,
+  "tags": [
+    "warranty",
+    "path2-existing",
+    "transfer"
+  ],
+  "agentPath": [],
+  "expectedMilestones": [
+    "dissatisfaction recognized",
+    "warm transfer with context",
+    "expectation set"
+  ],
+  "version": 1,
+  "_exportedId": "019edaae-3ffa-7bd7-9902-d875187435d2"
+}

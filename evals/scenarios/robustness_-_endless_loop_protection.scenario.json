@@ -1,0 +1,23 @@
+{
+  "name": "Robustness - Endless Loop Protection",
+  "description": "Caller circles indefinitely without accepting resolution.",
+  "category": "adversarial",
+  "difficulty": "hard",
+  "entryAgent": "TBD - set after agents are built",
+  "initialMessage": "I have a question about my battery warranty. Actually, first explain how warranties work in general.",
+  "expectedOutcome": "Conversation hits designed max-turn/no-progress limits gracefully, offers a concrete closing path (website or transfer), and ends cleanly instead of looping forever.",
+  "maxTurns": 20,
+  "tags": [
+    "warranty",
+    "robustness",
+    "loop"
+  ],
+  "agentPath": [],
+  "expectedMilestones": [
+    "no-progress detected",
+    "closing path offered",
+    "graceful termination within turn limit"
+  ],
+  "version": 1,
+  "_exportedId": "019edaae-8128-78ea-8dff-f4bceb290b2d"
+}

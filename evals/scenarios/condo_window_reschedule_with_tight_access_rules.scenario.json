@@ -1,0 +1,24 @@
+{
+  "name": "Condo Window Reschedule With Tight Access Rules",
+  "description": "A terse condo resident needs to move an installation appointment because the building only allows contractor access during a narrow weekday window. The agent should efficiently gather the scheduling constraints and confirm a workable next step without unnecessary escalation.",
+  "category": "happy_path",
+  "difficulty": "easy",
+  "entryAgent": "SchedulingSupportAgent",
+  "initialMessage": "Need to move my install. Condo only allows vendors Tue-Thu 10 to 2. What can you do?",
+  "expectedOutcome": "The agent identifies this as a scheduling request, captures the access-window constraint, and proposes or confirms a rescheduling path within the permitted time range.",
+  "maxTurns": 5,
+  "tags": [
+    "scheduling",
+    "condo"
+  ],
+  "agentPath": [
+    "SchedulingSupportAgent"
+  ],
+  "expectedMilestones": [
+    "Scheduling intent identified",
+    "Building access restrictions captured",
+    "Alternative appointment window proposed or confirmed"
+  ],
+  "version": 1,
+  "_exportedId": "019edab7-8a5b-789a-a94a-452e2e50a262"
+}

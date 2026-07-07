@@ -1,0 +1,24 @@
+{
+  "name": "Language - French Canadian Happy Path",
+  "description": "FR-CA caller completes a warranty task in French.",
+  "category": "happy_path",
+  "difficulty": "medium",
+  "entryAgent": "TBD - set after agents are built",
+  "initialMessage": "Bonjour, j'ai un probleme avec ma batterie hybride apres l'installation.",
+  "expectedOutcome": "Agent conducts the recent-install flow in Quebecois French with content parity and >= 85% intent accuracy.",
+  "maxTurns": 14,
+  "tags": [
+    "warranty",
+    "language",
+    "french-canadian"
+  ],
+  "agentPath": [],
+  "expectedMilestones": [
+    "French maintained throughout",
+    "content parity",
+    "correct path",
+    "expectations set in French"
+  ],
+  "version": 1,
+  "_exportedId": "019edaae-8ff2-72e6-b92b-a87f86328779"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Straightforward Smart Device Installation Help",
+  "description": "A polite homeowner asks for help installing a newly purchased device and needs clear step-by-step guidance. The scenario tests whether the system can identify an installation issue and provide actionable setup support.",
+  "category": "happy_path",
+  "difficulty": "easy",
+  "entryAgent": "InstallIssueAgent",
+  "initialMessage": "Good afternoon. I just bought your device and I am having trouble getting it installed correctly. Could you please guide me through the setup?",
+  "expectedOutcome": "The agent provides clear installation troubleshooting steps, confirms the specific installation blocker, and leaves the user with a concrete next action to complete setup.",
+  "maxTurns": 6,
+  "tags": [
+    "installation",
+    "setup"
+  ],
+  "agentPath": [
+    "InstallIssueAgent"
+  ],
+  "expectedMilestones": [
+    "User describes installation problem",
+    "Agent identifies setup stage or blocker",
+    "Agent provides step-by-step troubleshooting",
+    "User receives clear next action"
+  ],
+  "version": 1,
+  "_exportedId": "019ed956-84d1-7af3-a72b-727efc81e4b2"
+}

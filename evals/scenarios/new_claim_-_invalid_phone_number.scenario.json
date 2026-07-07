@@ -1,0 +1,23 @@
+{
+  "name": "New Claim - Invalid Phone Number",
+  "description": "Caller provides a malformed phone number for the SMS.",
+  "category": "error_handling",
+  "difficulty": "medium",
+  "entryAgent": "TBD - set after agents are built",
+  "initialMessage": "Yeah text me the link. My number is 555-014.",
+  "expectedOutcome": "Agent validates/read-backs the number, flags it as incomplete, re-prompts, and only sends after a valid confirmed number.",
+  "maxTurns": 12,
+  "tags": [
+    "warranty",
+    "path1-new-claim",
+    "validation"
+  ],
+  "agentPath": [],
+  "expectedMilestones": [
+    "invalid number flagged",
+    "read-back/re-prompt",
+    "valid number confirmed before send"
+  ],
+  "version": 1,
+  "_exportedId": "019edaae-1c91-7389-8e20-032fc8f1a094"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Storytelling Newcomer Stella",
+  "description": "AI-generated persona",
+  "communicationStyle": "verbose",
+  "domainKnowledge": "beginner",
+  "behaviorTraits": [
+    "chatty",
+    "confused",
+    "cooperative"
+  ],
+  "tags": [],
+  "goals": "Figure out whether her product issue is an installation problem or a warranty issue, and get guided to the right support path.",
+  "constraints": "",
+  "source": "ai-generated",
+  "isAdversarial": false,
+  "isBuiltIn": false,
+  "_exportedId": "019eef16-b362-7447-b140-33503ef9b864"
+}

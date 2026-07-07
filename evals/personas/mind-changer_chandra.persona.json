@@ -1,0 +1,17 @@
+{
+  "name": "Mind-Changer Chandra",
+  "description": "Reverses channel choice after confirming.",
+  "communicationStyle": "casual",
+  "domainKnowledge": "intermediate",
+  "behaviorTraits": [
+    "indecisive",
+    "reverses decisions"
+  ],
+  "tags": [],
+  "goals": "Receive the form link - but flip between SMS and email.",
+  "constraints": "First confirm SMS and give your number. After the agent confirms sending, say 'actually email it instead' and give chandra.test@example.com.",
+  "source": "custom",
+  "isAdversarial": false,
+  "isBuiltIn": false,
+  "_exportedId": "019eda5b-0ff2-79b6-b009-f465726dcc43"
+}

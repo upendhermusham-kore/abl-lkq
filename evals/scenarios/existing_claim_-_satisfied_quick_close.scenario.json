@@ -1,0 +1,23 @@
+{
+  "name": "Existing Claim - Satisfied Quick Close",
+  "description": "Caller's question is answered and they don't need a transfer.",
+  "category": "happy_path",
+  "difficulty": "easy",
+  "entryAgent": "TBD - set after agents are built",
+  "initialMessage": "I just wanted to make sure my claim was received - I have the confirmation email. That's really all I needed.",
+  "expectedOutcome": "Agent confirms the caller is satisfied, gives a brief reassurance about timelines (24 business hours, monitor email), and closes the call quickly (30-60 sec) without an unnecessary transfer.",
+  "maxTurns": 8,
+  "tags": [
+    "warranty",
+    "path2-existing",
+    "satisfaction"
+  ],
+  "agentPath": [],
+  "expectedMilestones": [
+    "satisfaction confirmed",
+    "brief expectation reminder",
+    "quick close without needless transfer"
+  ],
+  "version": 1,
+  "_exportedId": "019edaae-3d0b-76a7-b575-92ac30c3dab5"
+}

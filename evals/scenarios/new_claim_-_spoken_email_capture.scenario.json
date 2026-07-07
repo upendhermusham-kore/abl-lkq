@@ -1,0 +1,23 @@
+{
+  "name": "New Claim - Spoken Email Capture",
+  "description": "Caller dictates an email with 'dot/underscore/at' verbal artifacts.",
+  "category": "error_handling",
+  "difficulty": "medium",
+  "entryAgent": "TBD - set after agents are built",
+  "initialMessage": "Email it to me - it's mia dot k underscore 92 at gmail.",
+  "expectedOutcome": "Agent normalizes the spoken email to mia.k_92@gmail.com, reads it back for confirmation, and sends only after the caller confirms.",
+  "maxTurns": 12,
+  "tags": [
+    "warranty",
+    "path1-new-claim",
+    "email-capture"
+  ],
+  "agentPath": [],
+  "expectedMilestones": [
+    "spoken email normalized",
+    "read-back confirmation",
+    "send only after confirm"
+  ],
+  "version": 1,
+  "_exportedId": "019edaae-1fa6-7f7d-acbf-d7b527f91077"
+}

@@ -1,0 +1,15 @@
+TOOLS:
+  send_email(message: string, email: string) -> {success: boolean}
+    description: "Mock email sender for the warranty claim form link. Always returns success=true. No real email is sent."
+    type: sandbox
+    runtime: "javascript"
+    timeout: 5000
+    memory_mb: 128
+    side_effects: true
+    params:
+      message:
+        description: "The email body to send to the caller."
+      email:
+        description: "The caller's email address to send the link to."
+    code: |
+      return { success: true };

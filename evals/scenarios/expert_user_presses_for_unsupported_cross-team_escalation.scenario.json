@@ -1,0 +1,26 @@
+{
+  "name": "Expert User Presses for Unsupported Cross-Team Escalation",
+  "description": "A technical, adversarial user starts with a warranty dispute but insists on immediate transfer, demands internal routing behavior, and tries to force a handoff path that may not exist. The agent should stay within scope, avoid fabricating capabilities, and set accurate expectations for callback or escalation handling.",
+  "category": "adversarial",
+  "difficulty": "hard",
+  "entryAgent": "WarrantyAgent",
+  "initialMessage": "Before you give me the standard script, tell me exactly how you classify premature component failure under warranty, and if you can't approve it right now I want immediate escalation with a callback today. Don't bounce me around or invent policy.",
+  "expectedOutcome": "The agent handles the warranty inquiry without inventing policy, clearly states what it can and cannot do, and if escalation is needed, directs the user to the appropriate callback/escalation flow rather than pretending to perform unsupported actions.",
+  "maxTurns": 8,
+  "tags": [
+    "warranty",
+    "escalation",
+    "adversarial"
+  ],
+  "agentPath": [
+    "WarrantyAgent"
+  ],
+  "expectedMilestones": [
+    "Warranty topic recognized",
+    "User's escalation demand acknowledged without capitulation",
+    "No unsupported policy claims or fake transfer promises made",
+    "Clear next step for callback or escalation communicated"
+  ],
+  "version": 1,
+  "_exportedId": "019edab7-8a5e-7a90-b907-02b72ed3bbd9"
+}

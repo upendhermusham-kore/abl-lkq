@@ -1,0 +1,25 @@
+{
+  "name": "Recent Install - CEL On, No Codes",
+  "description": "Recent-install caller, light on, vehicle not yet scanned.",
+  "category": "edge_case",
+  "difficulty": "medium",
+  "entryAgent": "TBD - set after agents are built",
+  "initialMessage": "After my recent install the check engine light came on, but I haven't had it scanned yet.",
+  "expectedOutcome": "Agent recommends having the vehicle scanned at a local repair shop or auto parts store before submitting (codes help the warranty team determine cause), explains they can still submit noting it isn't scanned, and gives form guidance.",
+  "maxTurns": 14,
+  "tags": [
+    "warranty",
+    "path3-recent-install",
+    "no-scan"
+  ],
+  "agentPath": [],
+  "expectedMilestones": [
+    "CEL confirmed",
+    "no-codes branch",
+    "scan-recommendation given",
+    "can-still-submit clarified",
+    "form guidance"
+  ],
+  "version": 1,
+  "_exportedId": "019edaae-48d4-7414-8a45-44c6736d7687"
+}

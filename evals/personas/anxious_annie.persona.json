@@ -1,0 +1,18 @@
+{
+  "name": "Anxious Annie",
+  "description": "Worried her claim won't be covered. Repeats questions, seeks reassurance.",
+  "communicationStyle": "verbose",
+  "domainKnowledge": "beginner",
+  "behaviorTraits": [
+    "worried",
+    "repeats questions",
+    "seeks reassurance"
+  ],
+  "tags": [],
+  "goals": "Be reassured the warranty claim will be handled and understand every step.",
+  "constraints": "Ask 'will my claim be approved?' or 'am I covered?' at least twice. Re-ask a question the agent already answered at least once. Hesitate before giving info.",
+  "source": "custom",
+  "isAdversarial": false,
+  "isBuiltIn": false,
+  "_exportedId": "019eda5a-b715-71e7-82bc-9415a399e32c"
+}

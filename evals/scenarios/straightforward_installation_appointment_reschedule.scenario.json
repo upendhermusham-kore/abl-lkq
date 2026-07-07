@@ -1,0 +1,27 @@
+{
+  "name": "Straightforward installation appointment reschedule",
+  "agentPath": [
+    "SchedulingSupportAgent"
+  ],
+  "category": "happy_path",
+  "description": "A cooperative homeowner needs to move an upcoming installation appointment from Tuesday afternoon to Thursday morning and can provide all identifying details when asked.",
+  "difficulty": "easy",
+  "entryAgent": "SchedulingSupportAgent",
+  "expectedMilestones": [
+    "Confirm the customer wants to reschedule an installation appointment",
+    "Collect or confirm key identifying details such as name, address, and current appointment window",
+    "Offer or confirm an acceptable replacement time window",
+    "Restate the updated appointment details clearly",
+    "Close the interaction with a concise confirmation"
+  ],
+  "maxTurns": 6,
+  "tags": [
+    "reschedule",
+    "installation",
+    "homeowner",
+    "single_agent",
+    "casual_persona"
+  ],
+  "version": 1,
+  "_exportedId": "019edac2-eb62-7da5-b316-adaade7130c8"
+}

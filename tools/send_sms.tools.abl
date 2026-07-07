@@ -1,0 +1,15 @@
+TOOLS:
+  send_sms(message: string, phone_number: string) -> {success: boolean}
+    description: "Mock SMS sender for the warranty claim form link. Always returns success=true. No real text message is sent."
+    type: sandbox
+    runtime: "javascript"
+    timeout: 5000
+    memory_mb: 128
+    side_effects: true
+    params:
+      message:
+        description: "The SMS body to send to the caller."
+      phone_number:
+        description: "The caller's mobile phone number to send the text to."
+    code: |
+      return { success: true };

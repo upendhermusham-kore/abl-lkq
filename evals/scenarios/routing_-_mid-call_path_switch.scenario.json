@@ -1,0 +1,24 @@
+{
+  "name": "Routing - Mid-Call Path Switch",
+  "description": "Caller starts a new claim then switches to existing-claim status.",
+  "category": "multi_turn",
+  "difficulty": "medium",
+  "entryAgent": "TBD - set after agents are built",
+  "initialMessage": "I need to start a warranty claim for my battery.",
+  "expectedOutcome": "Agent begins Path 1, then on the switch cleanly moves to Path 2: abandoned new-claim context does not leak; claim number is collected; warm transfer executes.",
+  "maxTurns": 14,
+  "tags": [
+    "warranty",
+    "routing",
+    "intent-switch"
+  ],
+  "agentPath": [],
+  "expectedMilestones": [
+    "Path 1 started",
+    "switch acknowledged",
+    "context cleaned",
+    "Path 2 completed correctly"
+  ],
+  "version": 1,
+  "_exportedId": "019edaae-6970-7099-8069-714fd445d95a"
+}

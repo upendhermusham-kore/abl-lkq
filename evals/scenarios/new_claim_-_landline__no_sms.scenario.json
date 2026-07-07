@@ -1,0 +1,24 @@
+{
+  "name": "New Claim - Landline, No SMS",
+  "description": "Caller on a landline cannot receive texts; needs email fallback.",
+  "category": "edge_case",
+  "difficulty": "medium",
+  "entryAgent": "TBD - set after agents are built",
+  "initialMessage": "I want to file a battery warranty claim, but I'm on a landline so you can't text me.",
+  "expectedOutcome": "Agent falls back to email gracefully, collects/confirms email, sends the link, or if no email gives clear verbal website navigation. No deadlock on contact collection.",
+  "maxTurns": 12,
+  "tags": [
+    "warranty",
+    "path1-new-claim",
+    "fallback"
+  ],
+  "agentPath": [],
+  "expectedMilestones": [
+    "SMS limitation handled",
+    "email fallback offered",
+    "link delivered or verbal guidance given",
+    "no loop"
+  ],
+  "version": 1,
+  "_exportedId": "019edaae-13b9-7a86-83d2-ad18a1fd93a8"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Path Routing Accuracy Judge",
+  "description": "Did the IVR correctly identify and route New vs Existing vs Recent-Install, including the path-determination question and wrong-path self-selection?",
+  "type": "llm_judge",
+  "category": "custom",
+  "judgeModel": "claude-opus-4-7",
+  "judgePrompt": "Judge whether the agent routed the caller to the correct warranty path. The agent should ask the path-determination question (e.g., 'have you already submitted a claim for this issue?') when intent is ambiguous, and select: PATH 1 New Claim (not submitted), PATH 2 Existing Claim (collect number + warm transfer), or PATH 3 Recent Install Issue (post-install problem). FAIL if it starts a brand-new submission for someone who already has a claim, skips the determination question on ambiguous intent, treats a recent-install issue as a plain new claim without the CEL/DTC guidance, or transfers when self-service was appropriate. Otherwise PASS.",
+  "chainOfThought": true,
+  "temperature": 0,
+  "trajectoryMetrics": [],
+  "isBuiltIn": false,
+  "biasSettings": {
+    "positionSwapEnabled": true,
+    "blindEvaluation": true,
+    "crossModelJudge": false,
+    "evidenceFirstMode": true
+  },
+  "_exportedId": "019edaae-b682-7935-9e00-458409fe7f37"
+}

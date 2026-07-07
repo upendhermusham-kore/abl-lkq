@@ -1,0 +1,24 @@
+{
+  "name": "Existing Claim - Fragmented Number Read-back",
+  "description": "Caller provides the claim number in pieces with a pause.",
+  "category": "multi_turn",
+  "difficulty": "medium",
+  "entryAgent": "TBD - set after agents are built",
+  "initialMessage": "My claim number is GB-2025... hold on, let me find the rest.",
+  "expectedOutcome": "Agent waits/re-prompts patiently, captures the full number across turns, read-back-confirms it, then transfers.",
+  "maxTurns": 12,
+  "tags": [
+    "warranty",
+    "path2-existing",
+    "capture"
+  ],
+  "agentPath": [],
+  "expectedMilestones": [
+    "partial input handled",
+    "full number captured",
+    "read-back confirmation",
+    "transfer"
+  ],
+  "version": 1,
+  "_exportedId": "019edaae-3a17-78b3-8df5-f5936061b7a2"
+}

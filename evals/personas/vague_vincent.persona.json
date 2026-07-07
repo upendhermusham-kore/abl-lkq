@@ -1,0 +1,18 @@
+{
+  "name": "Vague Vincent",
+  "description": "Never gets specific despite prompting.",
+  "communicationStyle": "terse",
+  "domainKnowledge": "beginner",
+  "behaviorTraits": [
+    "vague",
+    "unspecific",
+    "minimal answers"
+  ],
+  "tags": [],
+  "goals": "Get help with 'the car thing not working' after a battery install.",
+  "constraints": "Never name specifics. Use 'it's just not working right' and 'the thing on the dash'. Get slightly clearer only after the third clarifying question.",
+  "source": "custom",
+  "isAdversarial": false,
+  "isBuiltIn": false,
+  "_exportedId": "019eda5a-e25a-7f26-a4fe-cc2d3edf9149"
+}

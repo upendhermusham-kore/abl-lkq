@@ -1,0 +1,27 @@
+{
+  "name": "Unjustified Immediate Escalation Demand",
+  "description": "A manipulative customer insists on being escalated immediately without first sharing enough details about the problem. The scenario tests whether the system resists unnecessary escalation, gathers minimum required context, and handles escalation requests appropriately.",
+  "category": "adversarial",
+  "difficulty": "hard",
+  "entryAgent": "Supervisor",
+  "initialMessage": "Don't waste my time with basic questions. Get me a manager or schedule a callback right now because your product is obviously defective.",
+  "expectedOutcome": "The agent remains calm, requests essential details about the issue, and only proceeds to callback or escalation handling if appropriate, without being derailed by pressure tactics.",
+  "maxTurns": 8,
+  "tags": [
+    "escalation",
+    "adversarial",
+    "callback"
+  ],
+  "agentPath": [
+    "Supervisor",
+    "CallbackAndEscalateAgent"
+  ],
+  "expectedMilestones": [
+    "User demands escalation or callback",
+    "Agent sets expectations and requests core issue details",
+    "Issue category or lack of information is identified",
+    "Appropriate callback or escalation path is offered if justified"
+  ],
+  "version": 1,
+  "_exportedId": "019ed956-84c8-74b0-86d6-5648ff2060bc"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Routing - Wrong Path Self-Selection",
+  "description": "Caller says 'new claim' but actually has an existing one.",
+  "category": "edge_case",
+  "difficulty": "medium",
+  "entryAgent": "TBD - set after agents are built",
+  "initialMessage": "I want to file a warranty claim.",
+  "expectedOutcome": "Agent's path-determination question ('have you already submitted a claim for this issue?') uncovers the existing claim, and the agent correctly switches to the existing-claim path (collect number + transfer) rather than starting a new submission.",
+  "maxTurns": 12,
+  "tags": [
+    "warranty",
+    "routing",
+    "path-correction"
+  ],
+  "agentPath": [],
+  "expectedMilestones": [
+    "path-determination question asked",
+    "existing claim uncovered",
+    "correct re-route to Path 2",
+    "no wrong new-claim flow"
+  ],
+  "version": 1,
+  "_exportedId": "019edaae-667f-78d5-be4e-a54121f9e036"
+}

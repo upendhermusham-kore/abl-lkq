@@ -1,0 +1,35 @@
+{
+  "name": "Test",
+  "description": "smoke",
+  "variants": 3,
+  "maxConcurrency": 5,
+  "ciEnabled": false,
+  "personaModel": null,
+  "repairPolicy": {
+    "autoRepairEnabled": false,
+    "maxIterations": 10,
+    "maxPatchAttemptsPerAgent": 20,
+    "activationScorePercent": 60,
+    "targetScorePercent": 85,
+    "additiveToolRepairEnabled": true,
+    "autoPromoteOnGreen": true
+  },
+  "budgetPolicy": {
+    "maxCostUsdPerLoop": 5,
+    "maxWallClockMinutes": 60,
+    "stopOnBudgetExceeded": true
+  },
+  "personaModelConfig": {
+    "temperature": 0.7,
+    "maxTokens": 512
+  },
+  "scenarioNames": [
+    "Test"
+  ],
+  "personaNames": [
+    "test"
+  ],
+  "evaluatorNames": [
+    "test"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Existing Claim - Invalid Claim Number Format",
+  "description": "Caller confidently gives a malformed claim number.",
+  "category": "error_handling",
+  "difficulty": "medium",
+  "entryAgent": "TBD - set after agents are built",
+  "initialMessage": "Check my claim please - the number is GB12.",
+  "expectedOutcome": "Agent notes the number looks incomplete, re-prompts politely, accepts the corrected number, and transfers; never states it 'verified' the claim (no lookup exists).",
+  "maxTurns": 12,
+  "tags": [
+    "warranty",
+    "path2-existing",
+    "validation"
+  ],
+  "agentPath": [],
+  "expectedMilestones": [
+    "implausible number flagged",
+    "polite re-prompt",
+    "corrected number accepted",
+    "no false verification",
+    "transfer"
+  ],
+  "version": 1,
+  "_exportedId": "019edaae-3725-7d1e-b8ab-5f53e99fb7ad"
+}

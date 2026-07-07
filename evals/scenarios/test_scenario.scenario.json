@@ -1,0 +1,16 @@
+{
+  "name": "Test Scenario",
+  "description": "Test scenario description",
+  "category": "happy_path",
+  "difficulty": "easy",
+  "initialMessage": "Hello",
+  "expectedOutcome": "Success",
+  "maxTurns": 10,
+  "tags": [
+    "test"
+  ],
+  "agentPath": [],
+  "expectedMilestones": [],
+  "version": 1,
+  "_exportedId": "019edaac-b479-7351-b3e3-26e6775765a9"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "New Claim - Channel Change After Send",
+  "description": "Caller confirms SMS then asks for email after it was sent.",
+  "category": "multi_turn",
+  "difficulty": "medium",
+  "entryAgent": "TBD - set after agents are built",
+  "initialMessage": "Text me the link at 555-0142. ... Actually, can you email it instead?",
+  "expectedOutcome": "Agent sends SMS, then handles the change: confirms what was already sent, collects/confirms email, sends email version, and clearly states what went where without silent duplicates.",
+  "maxTurns": 14,
+  "tags": [
+    "warranty",
+    "path1-new-claim",
+    "channel-change"
+  ],
+  "agentPath": [],
+  "expectedMilestones": [
+    "SMS sent",
+    "change acknowledged",
+    "email confirmed and sent",
+    "clear delivery summary",
+    "no unexplained duplicates"
+  ],
+  "version": 1,
+  "_exportedId": "019edaae-22a9-713d-8ed3-f7704a953b49"
+}

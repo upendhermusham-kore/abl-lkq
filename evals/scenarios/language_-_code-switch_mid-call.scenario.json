@@ -1,0 +1,24 @@
+{
+  "name": "Language - Code-Switch Mid-Call",
+  "description": "Caller switches from English to Spanish mid-conversation.",
+  "category": "multi_turn",
+  "difficulty": "medium",
+  "entryAgent": "TBD - set after agents are built",
+  "initialMessage": "Hi, I need to file a warranty claim for my battery.",
+  "expectedOutcome": "Agent follows the language switch to Spanish from turn 3, retains all context captured in English, and completes the flow without restarting.",
+  "maxTurns": 14,
+  "tags": [
+    "warranty",
+    "language",
+    "code-switch"
+  ],
+  "agentPath": [],
+  "expectedMilestones": [
+    "language switch followed",
+    "context retained across switch",
+    "no restart",
+    "flow completed"
+  ],
+  "version": 1,
+  "_exportedId": "019edaae-92e8-7055-af2c-23b35f5ede42"
+}

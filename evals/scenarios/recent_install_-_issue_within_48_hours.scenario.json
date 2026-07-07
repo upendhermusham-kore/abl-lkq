@@ -1,0 +1,24 @@
+{
+  "name": "Recent Install - Issue Within 48 Hours",
+  "description": "EXPLORATORY (OQ#9): problem the day after installation.",
+  "category": "edge_case",
+  "difficulty": "hard",
+  "entryAgent": "TBD - set after agents are built",
+  "initialMessage": "You installed my hybrid battery yesterday and it's already throwing warnings. What do I do?",
+  "expectedOutcome": "Agent surfaces the very-recent install. EXPECTED PER DISCOVERY (unconfirmed): may flag potential installer error and advise contacting the installer first. RECORD ACTUAL BEHAVIOR as requirements evidence.",
+  "maxTurns": 12,
+  "tags": [
+    "warranty",
+    "path3-recent-install",
+    "48-hour",
+    "OQ9"
+  ],
+  "agentPath": [],
+  "expectedMilestones": [
+    "very-recent install surfaced",
+    "installer-first advisory OR actual behavior documented",
+    "concrete next step given"
+  ],
+  "version": 1,
+  "_exportedId": "019edaae-5d9a-7480-a55f-715487c26d52"
+}

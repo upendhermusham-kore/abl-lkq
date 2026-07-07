@@ -1,0 +1,24 @@
+{
+  "name": "Language - Spanish Happy Path",
+  "description": "Spanish-only caller files a new claim end-to-end in Spanish.",
+  "category": "happy_path",
+  "difficulty": "medium",
+  "entryAgent": "TBD - set after agents are built",
+  "initialMessage": "Hola, necesito presentar un reclamo de garantia para mi bateria hibrida.",
+  "expectedOutcome": "Agent conducts the full new-claim flow in Spanish with content parity (same steps, link delivery, expectations) and >= 85% intent accuracy.",
+  "maxTurns": 14,
+  "tags": [
+    "warranty",
+    "language",
+    "spanish"
+  ],
+  "agentPath": [],
+  "expectedMilestones": [
+    "Spanish maintained throughout",
+    "full content parity",
+    "link delivered",
+    "expectations set in Spanish"
+  ],
+  "version": 1,
+  "_exportedId": "019edaae-8d02-75ff-9569-4491c26e6d71"
+}

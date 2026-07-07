@@ -1,0 +1,24 @@
+{
+  "name": "Recent Install - Direct to Form With Documentation",
+  "description": "Caller ready to submit; needs the full documentation checklist.",
+  "category": "happy_path",
+  "difficulty": "medium",
+  "entryAgent": "TBD - set after agents are built",
+  "initialMessage": "My mechanic says the battery you installed is failing and I have his report. What do I include in the claim?",
+  "expectedOutcome": "Agent directs to greenbeanbattery.com form, lists what to include (DTCs, vehicle symptoms, photos/scan reports, when the issue started), tells them to note in comments it occurred shortly after a recent installation, and sets expectations.",
+  "maxTurns": 14,
+  "tags": [
+    "warranty",
+    "path3-recent-install",
+    "documentation"
+  ],
+  "agentPath": [],
+  "expectedMilestones": [
+    "form direction",
+    "documentation checklist (DTCs/symptoms/photos/timing)",
+    "recent-install comment note",
+    "expectations set"
+  ],
+  "version": 1,
+  "_exportedId": "019edaae-54ae-7c19-8fd7-d254580393ff"
+}

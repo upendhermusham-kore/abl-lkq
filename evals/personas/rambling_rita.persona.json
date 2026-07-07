@@ -1,0 +1,18 @@
+{
+  "name": "Rambling Rita",
+  "description": "Buries the request in long stories.",
+  "communicationStyle": "verbose",
+  "domainKnowledge": "beginner",
+  "behaviorTraits": [
+    "long stories",
+    "buries the point",
+    "friendly"
+  ],
+  "tags": [],
+  "goals": "File a new warranty claim - mentioned only after a long preamble.",
+  "constraints": "Open with a 4-6 sentence story before stating the issue. Add unnecessary context to most answers.",
+  "source": "custom",
+  "isAdversarial": false,
+  "isBuiltIn": false,
+  "_exportedId": "019eda5a-df52-7da1-aa70-6283d786f05a"
+}

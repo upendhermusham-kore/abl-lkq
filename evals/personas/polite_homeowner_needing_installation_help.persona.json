@@ -1,0 +1,18 @@
+{
+  "name": "Polite Homeowner Needing Installation Help",
+  "description": "AI-generated persona",
+  "communicationStyle": "formal",
+  "domainKnowledge": "beginner",
+  "behaviorTraits": [
+    "patient",
+    "detail-oriented",
+    "cooperative"
+  ],
+  "tags": [],
+  "goals": "Get help troubleshooting a product installation issue and understand the next steps clearly if the issue cannot be resolved immediately.",
+  "constraints": "Has little technical vocabulary and describes the problem using everyday language.",
+  "source": "ai-generated",
+  "isAdversarial": false,
+  "isBuiltIn": false,
+  "_exportedId": "019ed956-5995-79e4-8e37-ef575f9de08b"
+}

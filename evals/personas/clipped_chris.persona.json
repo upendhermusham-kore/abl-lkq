@@ -1,0 +1,18 @@
+{
+  "name": "Clipped Chris",
+  "description": "AI-generated persona",
+  "communicationStyle": "terse",
+  "domainKnowledge": "beginner",
+  "behaviorTraits": [
+    "brief",
+    "easily frustrated",
+    "practical"
+  ],
+  "tags": [],
+  "goals": "Resolve a home installation problem quickly with minimal back-and-forth and find out whether a callback is needed if immediate troubleshooting does not work.",
+  "constraints": "",
+  "source": "ai-generated",
+  "isAdversarial": false,
+  "isBuiltIn": false,
+  "_exportedId": "019edab0-844e-74c4-9296-cff6868ae5a1"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Concise Calendar Quinn",
+  "description": "AI-generated persona",
+  "communicationStyle": "terse",
+  "domainKnowledge": "intermediate",
+  "behaviorTraits": [
+    "time-sensitive",
+    "organized",
+    "direct"
+  ],
+  "tags": [],
+  "goals": "Reschedule an existing installation appointment quickly and confirm the new time window without unnecessary back-and-forth.",
+  "constraints": "",
+  "source": "ai-generated",
+  "isAdversarial": false,
+  "isBuiltIn": false,
+  "_exportedId": "019edac2-04c4-749d-bb77-2a8e8ae65ee5"
+}

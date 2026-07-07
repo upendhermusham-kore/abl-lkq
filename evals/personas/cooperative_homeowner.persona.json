@@ -1,0 +1,19 @@
+{
+  "name": "Cooperative Homeowner",
+  "behaviorTraits": [
+    "patient",
+    "answers clarifying questions directly",
+    "provides relevant appointment and product details when asked",
+    "open to escalation or callback if needed"
+  ],
+  "communicationStyle": "casual",
+  "constraints": "",
+  "description": "Auto-generated for Quick Eval",
+  "domainKnowledge": "beginner",
+  "goals": "",
+  "isAdversarial": false,
+  "isBuiltIn": false,
+  "source": "ai-generated",
+  "tags": [],
+  "_exportedId": "019edac2-c313-775a-9ce4-9faf631fd3e6"
+}

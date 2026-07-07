@@ -1,0 +1,17 @@
+{
+  "name": "Wrong-Path Wanda",
+  "description": "Self-selects the wrong path; actually has an existing claim though she said 'new'.",
+  "communicationStyle": "casual",
+  "domainKnowledge": "intermediate",
+  "behaviorTraits": [
+    "mislabels her own situation",
+    "corrects later"
+  ],
+  "tags": [],
+  "goals": "Get a status update, but initially frames it as a brand-new claim.",
+  "constraints": "Start by saying you want to 'file a claim'. After 1-2 turns reveal you actually already submitted one last week (GB-2025-11203) and really want its status.",
+  "source": "custom",
+  "isAdversarial": false,
+  "isBuiltIn": false,
+  "_exportedId": "019eda5a-e565-7ec3-b837-0b1f1ebf68c5"
+}

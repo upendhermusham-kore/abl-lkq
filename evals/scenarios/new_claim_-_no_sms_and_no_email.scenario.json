@@ -1,0 +1,24 @@
+{
+  "name": "New Claim - No SMS and No Email",
+  "description": "Neither channel available; verbal website guidance only.",
+  "category": "edge_case",
+  "difficulty": "medium",
+  "entryAgent": "TBD - set after agents are built",
+  "initialMessage": "I'm on a landline and I don't use email either. How do I file the claim?",
+  "expectedOutcome": "Agent gives clear, slow verbal guidance to greenbeanbattery.com > Warranty (top right) > Submit a Claim, and the form expectations, completing without a mandatory-contact deadlock.",
+  "maxTurns": 12,
+  "tags": [
+    "warranty",
+    "path1-new-claim",
+    "fallback"
+  ],
+  "agentPath": [],
+  "expectedMilestones": [
+    "both channels unavailable handled",
+    "verbal website navigation given",
+    "expectations set",
+    "no loop"
+  ],
+  "version": 1,
+  "_exportedId": "019edaae-199c-762e-ad8d-c0468633490a"
+}

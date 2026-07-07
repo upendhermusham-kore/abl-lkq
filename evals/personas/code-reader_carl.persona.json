@@ -1,0 +1,18 @@
+{
+  "name": "Code-Reader Carl",
+  "description": "Has scanned codes but mispronounces/mumbles them.",
+  "communicationStyle": "casual",
+  "domainKnowledge": "intermediate",
+  "behaviorTraits": [
+    "reads codes aloud",
+    "mumbles",
+    "needs confirmation"
+  ],
+  "tags": [],
+  "goals": "Provide DTC codes for a recent-install issue claim.",
+  "constraints": "Read your code as 'P-oh-A-eighty... or was it P-zero-A-eight-zero'. Only settle on P0A80 after the agent confirms via read-back.",
+  "source": "custom",
+  "isAdversarial": false,
+  "isBuiltIn": false,
+  "_exportedId": "019eda5a-d5bc-7c28-be27-a8ad9982db4d"
+}

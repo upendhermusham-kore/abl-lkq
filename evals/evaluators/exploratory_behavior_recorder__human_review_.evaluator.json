@@ -1,0 +1,18 @@
+{
+  "name": "Exploratory Behavior Recorder (Human Review)",
+  "description": "Human-review queue for the Open-Question scenarios (undefined behavior). Reviewer documents actual behavior as requirements evidence - not pass/fail.",
+  "type": "human_review",
+  "category": "custom",
+  "judgeModel": "(n/a - human review)",
+  "chainOfThought": false,
+  "temperature": 0,
+  "trajectoryMetrics": [],
+  "isBuiltIn": false,
+  "biasSettings": {
+    "positionSwapEnabled": true,
+    "blindEvaluation": true,
+    "crossModelJudge": false,
+    "evidenceFirstMode": true
+  },
+  "_exportedId": "019edaae-b393-7828-85b8-6970eaf70231"
+}

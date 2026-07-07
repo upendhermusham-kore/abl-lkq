@@ -1,0 +1,26 @@
+{
+  "name": "Verbose Post-Install Troubleshooting With Missing Details",
+  "description": "A first-time owner gives a long, unfocused description of problems that started after a recent installation but omits key diagnostic details. The agent should steer the conversation, extract the relevant symptoms and timing, and provide appropriate installation-issue guidance.",
+  "category": "multi_turn",
+  "difficulty": "medium",
+  "entryAgent": "InstallIssueAgent",
+  "initialMessage": "Hi, sorry this is a lot, but ever since the unit was put in yesterday my car has felt kind of weird, and I'm not really sure what matters, but I noticed a light for a little while and then it went away, and now I'm nervous to drive it to work tomorrow. Can you help me figure out what you need from me?",
+  "expectedOutcome": "The agent clarifies the recent-install context, gathers the missing symptom details and timing, and gives a coherent next-step recommendation tailored to an installation-related issue.",
+  "maxTurns": 7,
+  "tags": [
+    "installation",
+    "troubleshooting",
+    "multi_turn"
+  ],
+  "agentPath": [
+    "InstallIssueAgent"
+  ],
+  "expectedMilestones": [
+    "Recent installation timeframe confirmed",
+    "Key symptoms and warning-light behavior clarified",
+    "Driving concern acknowledged",
+    "Actionable troubleshooting or follow-up guidance provided"
+  ],
+  "version": 1,
+  "_exportedId": "019edab7-8a5d-7a66-a370-cfc3c2f952cd"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "New Claim - Website Navigation Help",
+  "description": "Non-web-savvy caller struggles to find the form on the site.",
+  "category": "edge_case",
+  "difficulty": "medium",
+  "entryAgent": "TBD - set after agents are built",
+  "initialMessage": "Okay I'm on the website but I don't see any warranty form anywhere.",
+  "expectedOutcome": "Agent gives precise, patient navigation: greenbeanbattery.com > 'Warranty' at the top right > 'Submit a Claim', read instructions, form link at the bottom of the page. Repeats/slows down if needed.",
+  "maxTurns": 14,
+  "tags": [
+    "warranty",
+    "path1-new-claim",
+    "navigation"
+  ],
+  "agentPath": [],
+  "expectedMilestones": [
+    "precise navigation steps given",
+    "patient repetition",
+    "form location clarified"
+  ],
+  "version": 1,
+  "_exportedId": "019edaae-2b88-79d6-99bd-422d643bf1cc"
+}

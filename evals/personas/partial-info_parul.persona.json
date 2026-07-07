@@ -1,0 +1,18 @@
+{
+  "name": "Partial-Info Parul",
+  "description": "Gives info in fragments with mid-sentence pauses.",
+  "communicationStyle": "casual",
+  "domainKnowledge": "beginner",
+  "behaviorTraits": [
+    "fragmented",
+    "pauses",
+    "self-corrects"
+  ],
+  "tags": [],
+  "goals": "Check the status of an existing claim.",
+  "constraints": "Give your claim number in two parts: first 'GB-2025...', then pause 'hold on, let me find the rest', then '...78421' a turn later.",
+  "source": "custom",
+  "isAdversarial": false,
+  "isBuiltIn": false,
+  "_exportedId": "019eda5a-cc70-7c2b-8962-94ebd47cd0ad"
+}

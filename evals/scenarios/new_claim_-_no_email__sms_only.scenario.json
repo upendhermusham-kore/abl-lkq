@@ -1,0 +1,24 @@
+{
+  "name": "New Claim - No Email, SMS Only",
+  "description": "Caller has no email; must use SMS.",
+  "category": "edge_case",
+  "difficulty": "medium",
+  "entryAgent": "TBD - set after agents are built",
+  "initialMessage": "Sure, file the claim - but I don't have an email address.",
+  "expectedOutcome": "Agent uses SMS, confirms the number, sends the link. If SMS also impossible, gives verbal website guidance. Completes without requiring email.",
+  "maxTurns": 12,
+  "tags": [
+    "warranty",
+    "path1-new-claim",
+    "fallback"
+  ],
+  "agentPath": [],
+  "expectedMilestones": [
+    "no-email handled",
+    "SMS path used and confirmed",
+    "link delivered",
+    "no email forced"
+  ],
+  "version": 1,
+  "_exportedId": "019edaae-16a9-70b0-a42d-0b091ae92a32"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Mumbled-Email Mia",
+  "description": "States email quickly with ambiguous symbols.",
+  "communicationStyle": "casual",
+  "domainKnowledge": "intermediate",
+  "behaviorTraits": [
+    "fast email dictation",
+    "ambiguous symbols"
+  ],
+  "tags": [],
+  "goals": "Receive the claim form link via email.",
+  "constraints": "Give your email as 'mia dot k underscore 92 at gmail' (= mia.k_92@gmail.com). Confirm only if the agent reads it back normalized.",
+  "source": "custom",
+  "isAdversarial": false,
+  "isBuiltIn": false,
+  "_exportedId": "019eda5b-0ceb-7da6-9855-36a33fe2eaf9"
+}

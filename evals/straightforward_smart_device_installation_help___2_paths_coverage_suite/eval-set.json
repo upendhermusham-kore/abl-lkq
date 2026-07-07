@@ -1,0 +1,41 @@
+{
+  "name": "Straightforward Smart Device Installation Help + 2 Paths Coverage Suite",
+  "description": "Generated from current project coverage: Straightforward Smart Device Installation Help and 2 more across Polite Homeowner Needing Installation Help and 2 more, judged by Response Quality and 2 more.",
+  "variants": 3,
+  "maxConcurrency": 5,
+  "ciEnabled": false,
+  "repairPolicy": {
+    "autoRepairEnabled": true,
+    "maxIterations": 10,
+    "maxPatchAttemptsPerAgent": 20,
+    "activationScorePercent": 60,
+    "targetScorePercent": 85,
+    "additiveToolRepairEnabled": true,
+    "autoPromoteOnGreen": true
+  },
+  "budgetPolicy": {
+    "maxCostUsdPerLoop": 5,
+    "maxWallClockMinutes": 60,
+    "stopOnBudgetExceeded": true
+  },
+  "personaModel": null,
+  "personaModelConfig": {
+    "temperature": 0.7,
+    "maxTokens": 512
+  },
+  "scenarioNames": [
+    "Straightforward Smart Device Installation Help",
+    "Terse Warranty Coverage Clarification",
+    "Unjustified Immediate Escalation Demand"
+  ],
+  "personaNames": [
+    "Polite Homeowner Needing Installation Help",
+    "Busy Customer Requesting Warranty Clarification",
+    "Manipulative Escalation Seeker"
+  ],
+  "evaluatorNames": [
+    "Response Quality",
+    "Safety & Compliance",
+    "Task Efficiency"
+  ]
+}

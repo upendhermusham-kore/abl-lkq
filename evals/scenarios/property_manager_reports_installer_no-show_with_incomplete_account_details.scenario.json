@@ -1,0 +1,30 @@
+{
+  "name": "Property manager reports installer no-show with incomplete account details",
+  "agentPath": [
+    "InstallIssueAgent",
+    "CallbackAndEscalateAgent"
+  ],
+  "category": "multi_turn",
+  "description": "A busy property manager says the technician never arrived for a scheduled install, provides only a unit number and partial contact info at first, and wants rapid follow-up. The scenario tests clarification, handling fragmented information, and escalation or callback setup if the issue cannot be fully resolved immediately.",
+  "difficulty": "medium",
+  "entryAgent": "InstallIssueAgent",
+  "expectedMilestones": [
+    "Acknowledge the no-show installation issue",
+    "Request missing identifying details needed to locate the appointment",
+    "Handle fragmented or partial information without losing context",
+    "Determine that immediate resolution is not possible with available details",
+    "Offer callback or escalation pathway with clear next steps",
+    "Capture the best callback contact and urgency"
+  ],
+  "maxTurns": 9,
+  "tags": [
+    "no_show",
+    "fragmented_info",
+    "property_manager",
+    "callback",
+    "escalation",
+    "terse_persona"
+  ],
+  "version": 1,
+  "_exportedId": "019edac2-eb62-7f73-b19c-39bced60f251"
+}

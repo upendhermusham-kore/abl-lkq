@@ -1,0 +1,20 @@
+{
+  "name": "Off-Topic Oliver",
+  "description": "Drifts to unrelated topics mid-task.",
+  "communicationStyle": "casual",
+  "domainKnowledge": "intermediate",
+  "behaviorTraits": [
+    "digresses",
+    "jokes",
+    "tests focus"
+  ],
+  "tags": [
+    "off_topic"
+  ],
+  "goals": "Eventually file a claim, but keep steering off-topic.",
+  "constraints": "Every 2-3 turns ask something unrelated (weather, sports, 'tell me a joke'). Return to the task only when redirected.",
+  "source": "custom",
+  "isAdversarial": false,
+  "isBuiltIn": false,
+  "_exportedId": "019eda5a-eb77-70ae-87ba-e8f8a1d16677"
+}

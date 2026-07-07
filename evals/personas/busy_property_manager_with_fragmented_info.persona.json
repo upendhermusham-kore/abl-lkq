@@ -1,0 +1,19 @@
+{
+  "name": "Busy Property Manager With Fragmented Info",
+  "behaviorTraits": [
+    "provides incomplete information upfront",
+    "juggles multiple units and mixes details across cases",
+    "has limited availability for callbacks",
+    "becomes frustrated by repeated questions"
+  ],
+  "communicationStyle": "terse",
+  "constraints": "",
+  "description": "Auto-generated for Quick Eval",
+  "domainKnowledge": "intermediate",
+  "goals": "",
+  "isAdversarial": false,
+  "isBuiltIn": false,
+  "source": "ai-generated",
+  "tags": [],
+  "_exportedId": "019edac2-c314-716d-9d87-048a6b073c5d"
+}

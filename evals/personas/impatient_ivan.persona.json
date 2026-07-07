@@ -1,0 +1,18 @@
+{
+  "name": "Impatient Ivan",
+  "description": "Wants a human immediately; treats the bot as an obstacle.",
+  "communicationStyle": "terse",
+  "domainKnowledge": "intermediate",
+  "behaviorTraits": [
+    "impatient",
+    "demands human",
+    "short answers"
+  ],
+  "tags": [],
+  "goals": "Reach a live warranty agent quickly.",
+  "constraints": "In your first or second turn, demand to speak to a human. Resist self-service at least once. For an existing-claim call this should succeed; for a new claim, cooperate reluctantly if no transfer is offered.",
+  "source": "custom",
+  "isAdversarial": false,
+  "isBuiltIn": false,
+  "_exportedId": "019eda5a-ba25-7239-b556-13125efbdd66"
+}

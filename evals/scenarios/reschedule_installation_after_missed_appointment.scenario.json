@@ -1,0 +1,27 @@
+{
+  "name": "Reschedule installation after missed appointment",
+  "agentPath": [
+    "SchedulingSupportAgent"
+  ],
+  "category": "happy_path",
+  "description": "Olivia Chen contacts support in a formal tone because a technician did not arrive for a scheduled installation window. She wants to confirm what happened and book the next available appointment. The scenario evaluates whether the system can handle a straightforward scheduling request, acknowledge inconvenience, and complete the rescheduling flow without unnecessary handoffs.",
+  "difficulty": "easy",
+  "entryAgent": "SchedulingSupportAgent",
+  "expectedMilestones": [
+    "Acknowledge the missed appointment and apologize",
+    "Confirm the original appointment details or service address",
+    "Offer available rescheduling options",
+    "Capture the customer's preferred new time",
+    "Confirm the rescheduled appointment clearly"
+  ],
+  "maxTurns": 8,
+  "tags": [
+    "scheduling",
+    "missed_appointment",
+    "formal_persona",
+    "single_agent",
+    "reschedule"
+  ],
+  "version": 1,
+  "_exportedId": "019edab4-621c-78e5-8f2a-7e87e86c579a"
+}

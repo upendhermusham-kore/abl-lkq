@@ -1,0 +1,25 @@
+{
+  "name": "Existing Claim - Happy Path (Warm Transfer)",
+  "description": "Caller with a claim number is warm-transferred to the Warranty queue.",
+  "category": "handoff",
+  "difficulty": "easy",
+  "entryAgent": "TBD - set after agents are built",
+  "initialMessage": "I'm calling to check the status of my warranty claim. My claim number is GB-2025-78421.",
+  "expectedOutcome": "Agent identifies existing-claim path, notes/confirms the claim number, explains a specialist will pull up the claim, and warm-transfers (SIP REFER) to the Cisco UCCE Warranty Queue with a context packet so the caller won't repeat themselves. The IVR does NOT look up status itself.",
+  "maxTurns": 10,
+  "tags": [
+    "warranty",
+    "path2-existing",
+    "transfer"
+  ],
+  "agentPath": [],
+  "expectedMilestones": [
+    "existing-claim path identified",
+    "claim number confirmed",
+    "no IVR status lookup",
+    "transfer expectation set",
+    "warm transfer with context"
+  ],
+  "version": 1,
+  "_exportedId": "019edaae-313b-78b5-b7bb-eb57b7e89dd3"
+}

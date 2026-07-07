@@ -1,0 +1,53 @@
+{
+  "name": "test",
+  "description": "tets",
+  "type": "llm_judge",
+  "category": "quality",
+  "judgeModel": "gpt-5.4-mini-2026-03-17",
+  "chainOfThought": true,
+  "temperature": 0,
+  "scoringRubric": {
+    "scaleType": "1-5",
+    "points": [
+      {
+        "value": 1,
+        "label": "Poor",
+        "criteria": "Response is incorrect, irrelevant, or harmful.",
+        "examples": []
+      },
+      {
+        "value": 2,
+        "label": "Below Average",
+        "criteria": "Significant issues that affect usability.",
+        "examples": []
+      },
+      {
+        "value": 3,
+        "label": "Average",
+        "criteria": "Partially addresses the request with notable gaps.",
+        "examples": []
+      },
+      {
+        "value": 4,
+        "label": "Good",
+        "criteria": "Mostly correct with minor issues.",
+        "examples": []
+      },
+      {
+        "value": 5,
+        "label": "Excellent",
+        "criteria": "Fully correct, complete, and well-structured.",
+        "examples": []
+      }
+    ]
+  },
+  "biasSettings": {
+    "positionSwapEnabled": true,
+    "blindEvaluation": true,
+    "crossModelJudge": false,
+    "evidenceFirstMode": true
+  },
+  "trajectoryMetrics": [],
+  "isBuiltIn": false,
+  "_exportedId": "019eef14-369a-72f6-918b-a8506fccc892"
+}

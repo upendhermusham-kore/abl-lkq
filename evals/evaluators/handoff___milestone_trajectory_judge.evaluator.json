@@ -1,0 +1,22 @@
+{
+  "name": "Handoff & Milestone Trajectory Judge",
+  "description": "Trajectory metrics: milestones hit, Path 2 warm transfer routed correctly with context, no redundant loops.",
+  "type": "trajectory",
+  "category": "tool_correctness",
+  "judgeModel": "(n/a - trajectory)",
+  "chainOfThought": false,
+  "temperature": 0,
+  "trajectoryMetrics": [
+    "milestone_completion",
+    "handoff_correctness",
+    "path_efficiency"
+  ],
+  "isBuiltIn": false,
+  "biasSettings": {
+    "positionSwapEnabled": true,
+    "blindEvaluation": true,
+    "crossModelJudge": false,
+    "evidenceFirstMode": true
+  },
+  "_exportedId": "019edaae-a4de-741e-b0bb-b5e71afc8210"
+}
