@@ -1,0 +1,84 @@
+{
+  "version": "draft",
+  "state": "active",
+  "environment": null,
+  "source_hash": "0f77f0b97105e8226ff307ba1b1c1fe82e6dbf4b98ba2355eec6ae34fee44740",
+  "changelog": null,
+  "triggers": [
+    {
+      "_exportedId": "019ed52b-487a-7a58-9beb-81063974e645",
+      "triggerName": "webhook",
+      "type": "webhook",
+      "config": {},
+      "environment": null
+    }
+  ],
+  "published_at": null,
+  "definition": {
+    "nodes": [
+      {
+        "id": "start-node",
+        "nodeType": "start",
+        "name": "Start",
+        "position": {
+          "x": 400,
+          "y": 50
+        },
+        "config": {
+          "inputVariables": []
+        }
+      },
+      {
+        "id": "4071d3c2-cf0f-475a-84f7-f167010ee418",
+        "nodeType": "function",
+        "name": "Function0001",
+        "position": {
+          "x": 650,
+          "y": 50
+        },
+        "config": {}
+      },
+      {
+        "id": "d532e182-fd3f-4f3d-93b1-19b0f1cec7d4",
+        "nodeType": "end",
+        "name": "End0001",
+        "position": {
+          "x": 900,
+          "y": 50
+        },
+        "config": {}
+      }
+    ],
+    "edges": [
+      {
+        "id": "e-start-node-4071d3c2-cf0f-475a-84f7-f167010ee418",
+        "source": "start-node",
+        "sourceHandle": "on_success",
+        "target": "4071d3c2-cf0f-475a-84f7-f167010ee418"
+      },
+      {
+        "id": "e-4071d3c2-cf0f-475a-84f7-f167010ee418-d532e182-fd3f-4f3d-93b1-19b0f1cec7d4",
+        "source": "4071d3c2-cf0f-475a-84f7-f167010ee418",
+        "sourceHandle": "on_success",
+        "target": "d532e182-fd3f-4f3d-93b1-19b0f1cec7d4"
+      }
+    ],
+    "steps": [],
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "mail": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "mail"
+      ]
+    },
+    "outputSchema": null,
+    "entryAgent": null,
+    "slaMinutes": null,
+    "escalationRules": [],
+    "notificationRules": []
+  }
+}

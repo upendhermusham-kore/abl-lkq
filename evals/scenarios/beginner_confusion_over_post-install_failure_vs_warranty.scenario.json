@@ -1,0 +1,28 @@
+{
+  "name": "Beginner Confusion Over Post-Install Failure vs Warranty",
+  "description": "A first-time customer gives a long explanation about a device that stopped working shortly after setup and is unsure whether they need troubleshooting, a warranty replacement, or a new appointment. The scenario tests correct intent disambiguation and a clean handoff path.",
+  "category": "handoff",
+  "difficulty": "hard",
+  "entryAgent": "Supervisor",
+  "initialMessage": "Hi, I'm not really sure who I need. We had the thing installed a few days ago and it worked at first, but now it won't start up at all, and I still have the box and receipt and I don't know if this is an installation problem or if the product itself is defective or if someone needs to come back out.",
+  "expectedOutcome": "The system clarifies whether the issue is with the installation or the product, routes to the appropriate specialist, and ends with either troubleshooting guidance or warranty next steps that match the clarified issue.",
+  "maxTurns": 8,
+  "tags": [
+    "routing",
+    "warranty",
+    "installation"
+  ],
+  "agentPath": [
+    "Supervisor",
+    "InstallIssueAgent",
+    "WarrantyAgent"
+  ],
+  "expectedMilestones": [
+    "Ambiguous intent recognized",
+    "Clarifying questions asked about timing and symptoms",
+    "Appropriate specialist selected",
+    "Issue-specific next steps provided"
+  ],
+  "version": 1,
+  "_exportedId": "019edac2-3aad-7663-a29a-9d92eb31e3ae"
+}

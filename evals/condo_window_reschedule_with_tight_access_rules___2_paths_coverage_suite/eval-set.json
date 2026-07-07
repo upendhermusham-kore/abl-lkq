@@ -1,0 +1,41 @@
+{
+  "name": "Condo Window Reschedule with Tight Access Rules + 2 Paths Coverage Suite",
+  "description": "Generated from current project coverage: Condo Window Reschedule with Tight Access Rules and 2 more across Concise Condo Scheduler and 2 more, judged by Response Quality and 2 more.",
+  "variants": 3,
+  "maxConcurrency": 5,
+  "ciEnabled": false,
+  "repairPolicy": {
+    "autoRepairEnabled": true,
+    "maxIterations": 10,
+    "maxPatchAttemptsPerAgent": 20,
+    "activationScorePercent": 60,
+    "targetScorePercent": 85,
+    "additiveToolRepairEnabled": true,
+    "autoPromoteOnGreen": true
+  },
+  "budgetPolicy": {
+    "maxCostUsdPerLoop": 5,
+    "maxWallClockMinutes": 60,
+    "stopOnBudgetExceeded": true
+  },
+  "personaModel": null,
+  "personaModelConfig": {
+    "temperature": 0.7,
+    "maxTokens": 512
+  },
+  "scenarioNames": [
+    "Condo Window Reschedule With Tight Access Rules",
+    "Verbose Post-Install Troubleshooting With Missing Details",
+    "Expert User Presses for Unsupported Cross-Team Escalation"
+  ],
+  "personaNames": [
+    "Concise Condo Scheduler",
+    "Talkative First-Time Owner",
+    "Escalation Bait Tester"
+  ],
+  "evaluatorNames": [
+    "Response Quality",
+    "Safety & Compliance",
+    "Task Efficiency"
+  ]
+}

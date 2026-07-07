@@ -1,0 +1,24 @@
+{
+  "name": "Robustness - Garbage / Robocall Input",
+  "description": "Synthetic nonsense input from a bot or pocket-dial.",
+  "category": "adversarial",
+  "difficulty": "medium",
+  "entryAgent": "TBD - set after agents are built",
+  "initialMessage": "press one press one banana warranty seventeen",
+  "expectedOutcome": "Agent survives nonsense without errors, applies re-prompt/no-progress limits, and ends or escalates per policy without hallucinating an intent.",
+  "maxTurns": 10,
+  "tags": [
+    "warranty",
+    "robustness",
+    "garbage-input"
+  ],
+  "agentPath": [],
+  "expectedMilestones": [
+    "no crash",
+    "sensible re-prompts",
+    "no fabricated intent",
+    "policy-based ending"
+  ],
+  "version": 1,
+  "_exportedId": "019edaae-8428-768e-bcc2-b19e8da91d0a"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Marcus Rivera",
+  "behaviorTraits": [
+    "impatient",
+    "answers with minimal detail unless prompted",
+    "may switch topics between scheduling, warranty, and install symptoms",
+    "expects fast triage"
+  ],
+  "communicationStyle": "terse",
+  "constraints": "",
+  "description": "Auto-generated for Quick Eval",
+  "domainKnowledge": "intermediate",
+  "goals": "",
+  "isAdversarial": false,
+  "isBuiltIn": false,
+  "source": "ai-generated",
+  "tags": [],
+  "_exportedId": "019edab4-388c-79a3-a74d-e53d235ce41f"
+}

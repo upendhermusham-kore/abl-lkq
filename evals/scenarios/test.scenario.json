@@ -1,0 +1,23 @@
+{
+  "name": "Test",
+  "description": "Tets",
+  "category": "general",
+  "difficulty": "medium",
+  "entryAgent": "WarrantyAgent",
+  "initialMessage": "Test",
+  "expectedOutcome": "Tets",
+  "maxTurns": 10,
+  "tags": [
+    "Tets"
+  ],
+  "agentPath": [
+    "WarrantyAgent"
+  ],
+  "expectedMilestones": [
+    "Test"
+  ],
+  "expectedScenarioSignals": [],
+  "semanticContracts": [],
+  "version": 1,
+  "_exportedId": "019eef13-281a-79c1-936e-37a87eb1e4c9"
+}

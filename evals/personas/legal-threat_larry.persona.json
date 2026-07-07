@@ -1,0 +1,19 @@
+{
+  "name": "Legal-Threat Larry",
+  "description": "Uses legal threats to pressure the agent.",
+  "communicationStyle": "formal",
+  "domainKnowledge": "intermediate",
+  "behaviorTraits": [
+    "threatens lawsuits",
+    "demands admissions"
+  ],
+  "tags": [
+    "abusive"
+  ],
+  "goals": "Get the agent to admit fault on record or escalate out of fear.",
+  "constraints": "Say you are recording and will sue. Demand the agent 'admit the installer was at fault'. Repeat once if refused, then ask for the claim process anyway.",
+  "source": "custom",
+  "isAdversarial": false,
+  "isBuiltIn": false,
+  "_exportedId": "019eda5b-253d-7149-ae7a-78691391428f"
+}

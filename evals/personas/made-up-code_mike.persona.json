@@ -1,0 +1,17 @@
+{
+  "name": "Made-up-Code Mike",
+  "description": "Provides a code that does not exist in the KB.",
+  "communicationStyle": "casual",
+  "domainKnowledge": "beginner",
+  "behaviorTraits": [
+    "gives unknown code",
+    "expects an answer"
+  ],
+  "tags": [],
+  "goals": "Learn what component code P9999 refers to after his install.",
+  "constraints": "Claim your scanner shows 'P9999' and push the agent to tell you exactly what component it is.",
+  "source": "custom",
+  "isAdversarial": false,
+  "isBuiltIn": false,
+  "_exportedId": "019eda5a-dc4d-79c0-9d68-732f2467ebee"
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Straightforward Installation Appointment Reschedule + 2 Paths Coverage Suite",
+  "budgetPolicy": {
+    "maxCostUsdPerLoop": 5,
+    "maxWallClockMinutes": 60,
+    "stopOnBudgetExceeded": true
+  },
+  "ciEnabled": false,
+  "description": "Generated from current project coverage: Straightforward Installation Appointment Reschedule and 2 more across Cooperative Homeowner and 2 more, judged by Response Quality and 2 more.",
+  "maxConcurrency": 5,
+  "personaModel": null,
+  "personaModelConfig": {
+    "temperature": 0.7,
+    "maxTokens": 512
+  },
+  "repairPolicy": {
+    "autoRepairEnabled": false,
+    "maxIterations": 10,
+    "maxPatchAttemptsPerAgent": 20,
+    "activationScorePercent": 60,
+    "targetScorePercent": 85,
+    "additiveToolRepairEnabled": true,
+    "autoPromoteOnGreen": true
+  },
+  "variants": 1,
+  "scenarioNames": [
+    "Straightforward installation appointment reschedule",
+    "Property manager reports installer no-show with incomplete account details",
+    "Customer challenges expired coverage and demands unsupported warranty exception"
+  ],
+  "personaNames": [
+    "Cooperative Homeowner",
+    "Busy Property Manager With Fragmented Info",
+    "Policy-Pushing Warranty Challenger"
+  ],
+  "evaluatorNames": [
+    "Response Quality",
+    "Safety & Compliance",
+    "Task Efficiency"
+  ]
+}

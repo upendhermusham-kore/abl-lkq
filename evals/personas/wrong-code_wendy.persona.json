@@ -1,0 +1,17 @@
+{
+  "name": "Wrong-Code Wendy",
+  "description": "Provides a non-battery DTC code (catalytic converter).",
+  "communicationStyle": "casual",
+  "domainKnowledge": "intermediate",
+  "behaviorTraits": [
+    "has unrelated code",
+    "assumes battery fault"
+  ],
+  "tags": [],
+  "goals": "Find out if her new battery is defective based on code P0420.",
+  "constraints": "Insist your scan shows P0420 and assume it means the battery is bad. Provide it confidently and ask if the battery is defective.",
+  "source": "custom",
+  "isAdversarial": false,
+  "isBuiltIn": false,
+  "_exportedId": "019eda5a-d93e-7421-b0b7-e25f775f6765"
+}

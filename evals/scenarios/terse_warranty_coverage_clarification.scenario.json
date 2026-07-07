@@ -1,0 +1,25 @@
+{
+  "name": "Terse Warranty Coverage Clarification",
+  "description": "A busy customer asks whether a specific issue is covered under warranty and wants a direct answer. The scenario tests concise clarification, eligibility probing, and accurate warranty guidance.",
+  "category": "multi_turn",
+  "difficulty": "medium",
+  "entryAgent": "WarrantyAgent",
+  "initialMessage": "Need a quick answer: my unit stopped working after 10 months. Is that under warranty or not?",
+  "expectedOutcome": "The agent asks any necessary clarifying questions, explains whether the issue appears warranty-eligible based on the provided timeline and symptoms, and tells the user what information or next step is needed to proceed.",
+  "maxTurns": 7,
+  "tags": [
+    "warranty",
+    "coverage"
+  ],
+  "agentPath": [
+    "WarrantyAgent"
+  ],
+  "expectedMilestones": [
+    "Warranty question recognized",
+    "Relevant eligibility details requested or confirmed",
+    "Coverage assessment explained",
+    "Next step for claim or support provided"
+  ],
+  "version": 1,
+  "_exportedId": "019ed956-84d0-7167-827b-4d11a426bb18"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Language Parity Judge",
+  "description": "Spanish / French-Canadian / code-switch parity with full content equivalence to the English flow.",
+  "type": "llm_judge",
+  "category": "custom",
+  "judgeModel": "claude-opus-4-7",
+  "judgePrompt": "The caller speaks Spanish or French Canadian (or switches mid-call). Score: does the agent respond in the caller's language consistently? Is content quality equal to the English flow (same steps, link delivery, form guidance, 24-business-hour expectation - nothing dropped)? On a mid-call switch does it follow without losing context? Penalize replying in English to a non-English caller, translation gibberish, dropped steps, or restarting after a switch.",
+  "chainOfThought": true,
+  "temperature": 0,
+  "trajectoryMetrics": [],
+  "isBuiltIn": false,
+  "biasSettings": {
+    "positionSwapEnabled": true,
+    "blindEvaluation": true,
+    "crossModelJudge": false,
+    "evidenceFirstMode": true
+  },
+  "_exportedId": "019edaae-a7ce-76fd-bf67-0ee6e5e31c21"
+}

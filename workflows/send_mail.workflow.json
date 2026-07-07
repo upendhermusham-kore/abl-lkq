@@ -1,0 +1,13 @@
+{
+  "name": "send_mail",
+  "type": "cx_automation",
+  "description": null,
+  "entryAgent": null,
+  "metadata": null,
+  "slaMinutes": null,
+  "escalationRules": [],
+  "notificationRules": [],
+  "slug": "send-mail",
+  "tags": [],
+  "_exportedId": "019ed52b-4875-77cf-ae9b-c8d045dc30e5"
+}

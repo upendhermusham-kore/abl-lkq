@@ -1,0 +1,24 @@
+{
+  "name": "Routing - Ambiguous Opening Intent",
+  "description": "Caller's opening is vague about which warranty path applies.",
+  "category": "edge_case",
+  "difficulty": "medium",
+  "entryAgent": "TBD - set after agents are built",
+  "initialMessage": "Yeah, I'm calling about my battery... there's a problem.",
+  "expectedOutcome": "Agent asks focused clarifying questions to determine new vs existing vs recent-install, without misrouting, and proceeds down the correct path.",
+  "maxTurns": 12,
+  "tags": [
+    "warranty",
+    "routing",
+    "disambiguation"
+  ],
+  "agentPath": [],
+  "expectedMilestones": [
+    "ambiguity detected",
+    "clarifying questions asked",
+    "correct path selected",
+    "no misroute"
+  ],
+  "version": 1,
+  "_exportedId": "019edaae-6c67-7e83-a685-539a040441df"
+}

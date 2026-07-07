@@ -1,0 +1,19 @@
+{
+  "name": "Groundedness & No-Hallucination Judge",
+  "description": "Verifies every factual claim (DTC meaning, warranty rules, process, timelines) is grounded; flags invented info. Critical for Path 3 diagnostics.",
+  "type": "llm_judge",
+  "category": "quality",
+  "judgeModel": "claude-opus-4-7",
+  "judgePrompt": "You are judging a Green Bean Battery warranty IVR conversation. Score whether every factual claim is grounded in the agent's knowledge sources. Pay special attention to DTC interpretation (the agent must NEVER invent a meaning for an unknown code - it must say so and advise professional diagnosis), the 'Check Hybrid System covers 200+ components' messaging, that hybrid battery failures typically produce 'P' codes, warranty process steps, and the 24-business-hour timeline. List each factual claim, mark SUPPORTED / UNSUPPORTED / CONTRADICTED, then score. Any invented DTC interpretation caps the score at 1.",
+  "chainOfThought": true,
+  "temperature": 0,
+  "trajectoryMetrics": [],
+  "isBuiltIn": false,
+  "biasSettings": {
+    "positionSwapEnabled": true,
+    "blindEvaluation": true,
+    "crossModelJudge": false,
+    "evidenceFirstMode": true
+  },
+  "_exportedId": "019edaae-9bcd-7f2d-a2c2-ff62f34d9549"
+}

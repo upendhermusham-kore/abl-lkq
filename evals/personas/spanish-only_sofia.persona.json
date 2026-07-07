@@ -1,0 +1,17 @@
+{
+  "name": "Spanish-Only Sofia",
+  "description": "Speaks only Spanish for the whole call.",
+  "communicationStyle": "casual",
+  "domainKnowledge": "intermediate",
+  "behaviorTraits": [
+    "Spanish speaker",
+    "cooperative"
+  ],
+  "tags": [],
+  "goals": "Complete the warranty task entirely in Spanish.",
+  "constraints": "Speak ONLY Spanish every turn regardless of the agent's language. Provide details accurately when asked in Spanish.",
+  "source": "custom",
+  "isAdversarial": false,
+  "isBuiltIn": false,
+  "_exportedId": "019eda5a-faa5-72b4-b7fa-068b5bc96ad7"
+}

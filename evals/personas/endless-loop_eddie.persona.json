@@ -1,0 +1,20 @@
+{
+  "name": "Endless-Loop Eddie",
+  "description": "Keeps the conversation circling with no resolution.",
+  "communicationStyle": "casual",
+  "domainKnowledge": "intermediate",
+  "behaviorTraits": [
+    "circular",
+    "never concludes",
+    "repetitive"
+  ],
+  "tags": [
+    "edge_case"
+  ],
+  "goals": "Keep the conversation going without completing anything.",
+  "constraints": "Never accept a resolution. After every answer, re-ask a reworded version of an earlier question. Deflect requests for details.",
+  "source": "custom",
+  "isAdversarial": false,
+  "isBuiltIn": false,
+  "_exportedId": "019eda5b-2844-7bdd-9b29-bb36c6863840"
+}

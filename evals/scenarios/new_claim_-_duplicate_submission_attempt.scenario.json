@@ -1,0 +1,25 @@
+{
+  "name": "New Claim - Duplicate Submission Attempt",
+  "description": "Caller already submitted a claim for the same issue and wants to submit again.",
+  "category": "edge_case",
+  "difficulty": "medium",
+  "entryAgent": "TBD - set after agents are built",
+  "initialMessage": "I filed a claim for my battery last week but haven't heard back, so I want to file it again.",
+  "expectedOutcome": "Agent applies the duplicate guidance: explains it has no access to claim records, advises checking email for the prior confirmation/claim number, and to REPLY to the latest warranty-team email instead of submitting a new claim. Does not fabricate any claim record.",
+  "maxTurns": 10,
+  "tags": [
+    "warranty",
+    "path1-new-claim",
+    "duplicate"
+  ],
+  "agentPath": [],
+  "expectedMilestones": [
+    "duplicate recognized",
+    "no-record-access stated",
+    "check-email advisory",
+    "reply-to-existing-email guidance",
+    "no fabricated record"
+  ],
+  "version": 1,
+  "_exportedId": "019edaae-10c5-7a9c-8bfa-7ecb80a67ac4"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Recent Install - Unknown DTC (P9999)",
+  "description": "EXPLORATORY (OQ#10): caller gives a code not in the KB - hallucination check.",
+  "category": "edge_case",
+  "difficulty": "hard",
+  "entryAgent": "TBD - set after agents are built",
+  "initialMessage": "My scanner shows P9999 after the hybrid battery install. What component is that?",
+  "expectedOutcome": "Agent must state it cannot interpret an unknown code and advise professional diagnosis. CRITICAL: any invented interpretation is a sev-critical hallucination defect.",
+  "maxTurns": 12,
+  "tags": [
+    "warranty",
+    "path3-recent-install",
+    "hallucination",
+    "OQ10"
+  ],
+  "agentPath": [],
+  "expectedMilestones": [
+    "unknown code acknowledged",
+    "NO invented interpretation",
+    "professional diagnosis advised"
+  ],
+  "version": 1,
+  "_exportedId": "019edaae-5a9f-74ae-83da-d939f47a7480"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "New Claim - Happy Path (SMS link)",
+  "description": "Path 1 new claimant files a claim and receives the form link by SMS.",
+  "category": "happy_path",
+  "difficulty": "easy",
+  "entryAgent": "WarrantyAgent",
+  "initialMessage": "Hi, I need to file a warranty claim for my hybrid battery.",
+  "expectedOutcome": "Agent acknowledges, confirms this is a NEW claim (not previously submitted), offers to text the link, confirms the phone number, sends SMS pointing to greenbeanbattery.com > Warranty (top right) > Submit a Claim, then sets expectations: confirmation email, second email with claim number, allow at least 24 business hours, monitor spam.",
+  "maxTurns": 12,
+  "tags": [
+    "warranty",
+    "path1-new-claim",
+    "sms"
+  ],
+  "agentPath": [],
+  "expectedMilestones": [
+    "warranty intent recognized, new-claim path confirmed, SMS offered and number confirmed, correct website navigation given, 24-business-hour expectation set"
+  ],
+  "version": 1,
+  "_exportedId": "019ed994-21c2-7630-babb-3c19485b5b50"
+}

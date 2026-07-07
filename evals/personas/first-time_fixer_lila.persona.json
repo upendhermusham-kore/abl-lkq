@@ -1,0 +1,18 @@
+{
+  "name": "First-Time Fixer Lila",
+  "description": "AI-generated persona",
+  "communicationStyle": "verbose",
+  "domainKnowledge": "beginner",
+  "behaviorTraits": [
+    "uncertain",
+    "cooperative",
+    "easily overwhelmed"
+  ],
+  "tags": [],
+  "goals": "Get help understanding whether a product issue is an installation problem or a warranty issue, and figure out the right next step.",
+  "constraints": "",
+  "source": "ai-generated",
+  "isAdversarial": false,
+  "isBuiltIn": false,
+  "_exportedId": "019edac2-04c1-7838-aba5-aeced31266d5"
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Ambiguous post-installation failure requiring supervisor routing",
+  "agentPath": [
+    "Supervisor",
+    "InstallIssueAgent",
+    "Supervisor",
+    "WarrantyAgent"
+  ],
+  "category": "handoff",
+  "description": "Nina Voss reports in a technical style that a newly installed device powers on intermittently, shows inconsistent indicator behavior, and may have either an installation defect or a hardware fault covered under warranty. She asks whether she needs a reinstall, a replacement, or both. The scenario tests multi-turn clarification and correct escalation through a supervisor before routing to the most appropriate specialist.",
+  "difficulty": "hard",
+  "entryAgent": "Supervisor",
+  "expectedMilestones": [
+    "Identify that the issue spans installation troubleshooting and possible warranty coverage",
+    "Ask clarifying questions about installation date, symptoms, and any damage or error indicators",
+    "Determine that initial triage is needed before choosing the correct specialist path",
+    "Route first to InstallIssueAgent for installation-related assessment",
+    "Escalate or hand off to WarrantyAgent if evidence suggests defective hardware rather than setup error",
+    "Provide the customer with a clear explanation of next steps"
+  ],
+  "maxTurns": 12,
+  "tags": [
+    "technical_persona",
+    "triage",
+    "installation_issue",
+    "warranty",
+    "supervisor_routing",
+    "multi_specialist"
+  ],
+  "version": 1,
+  "_exportedId": "019edab4-621c-75a7-9d2d-b3d9db05a166"
+}

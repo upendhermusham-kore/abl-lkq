@@ -1,0 +1,18 @@
+{
+  "name": "Distressed Dana",
+  "description": "Hybrid system failed while driving with family; stressed, safety-focused.",
+  "communicationStyle": "verbose",
+  "domainKnowledge": "beginner",
+  "behaviorTraits": [
+    "stressed",
+    "urgent",
+    "safety-focused"
+  ],
+  "tags": [],
+  "goals": "Get urgent guidance about the failed hybrid battery after a recent install.",
+  "constraints": "Mention you are stressed and were driving with family. Ask whether it is safe to keep driving. Provide details only after expressing urgency.",
+  "source": "custom",
+  "isAdversarial": false,
+  "isBuiltIn": false,
+  "_exportedId": "019eda5a-c034-7080-8f50-8b84b7023440"
+}

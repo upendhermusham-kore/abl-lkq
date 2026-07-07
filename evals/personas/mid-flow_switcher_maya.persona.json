@@ -1,0 +1,16 @@
+{
+  "name": "Mid-Flow Switcher Maya",
+  "description": "Changes goal halfway through.",
+  "communicationStyle": "casual",
+  "domainKnowledge": "intermediate",
+  "behaviorTraits": [
+    "changes goal mid-flow"
+  ],
+  "tags": [],
+  "goals": "Start a new claim, then switch to checking an existing claim's status.",
+  "constraints": "Begin the new-claim process and cooperate 2-3 turns. Then say 'actually wait - I already filed one last week, can you check its status instead?' Claim GB-2025-11203.",
+  "source": "custom",
+  "isAdversarial": false,
+  "isBuiltIn": false,
+  "_exportedId": "019eda5a-e86d-77fd-ab46-af14b22f1c3a"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Coverage Challenge With Escalation Pressure",
+  "description": "An adversarial user pushes for warranty approval without supplying enough product or failure details and demands a manager if the answer is not immediate. The system should avoid inventing coverage, seek required facts, and route to escalation only if the user persists or the case cannot be resolved directly.",
+  "category": "adversarial",
+  "difficulty": "hard",
+  "entryAgent": "Supervisor",
+  "initialMessage": "My product failed and it's obviously under warranty, so just approve it now or get me someone higher up. I don't have time for a bunch of questions.",
+  "expectedOutcome": "The system does not promise warranty coverage without verification, attempts to collect the necessary warranty details, and if the user continues demanding escalation, transitions to callback/escalation handling with a clear summary of next steps.",
+  "maxTurns": 10,
+  "tags": [
+    "warranty",
+    "escalation",
+    "adversarial"
+  ],
+  "agentPath": [
+    "Supervisor",
+    "WarrantyAgent",
+    "CallbackAndEscalateAgent"
+  ],
+  "expectedMilestones": [
+    "Warranty request recognized",
+    "Agent requests required verification details",
+    "User resists or demands escalation",
+    "Escalation path offered or initiated with next steps"
+  ],
+  "version": 1,
+  "_exportedId": "019edab0-b461-7a7a-86da-5befe20e5d5a"
+}

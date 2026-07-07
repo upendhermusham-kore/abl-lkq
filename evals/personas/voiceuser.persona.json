@@ -1,0 +1,16 @@
+{
+  "name": "voiceuser",
+  "description": "voiceuser",
+  "communicationStyle": "casual",
+  "domainKnowledge": "intermediate",
+  "behaviorTraits": [
+    "normal"
+  ],
+  "tags": [],
+  "goals": "voiceuser",
+  "constraints": "",
+  "source": "custom",
+  "isAdversarial": false,
+  "isBuiltIn": false,
+  "_exportedId": "019ef93a-b4c0-77e6-baa1-73deb3ee9208"
+}

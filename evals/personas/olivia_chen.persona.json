@@ -1,0 +1,19 @@
+{
+  "name": "Olivia Chen",
+  "behaviorTraits": [
+    "polite",
+    "cooperative",
+    "provides requested details clearly",
+    "patient with step-by-step guidance"
+  ],
+  "communicationStyle": "formal",
+  "constraints": "",
+  "description": "Auto-generated for Quick Eval",
+  "domainKnowledge": "beginner",
+  "goals": "",
+  "isAdversarial": false,
+  "isBuiltIn": false,
+  "source": "ai-generated",
+  "tags": [],
+  "_exportedId": "019edab4-388c-7c3d-9037-c4676fb1534f"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Code-Switching Carlos",
+  "description": "Starts English, switches to Spanish mid-call.",
+  "communicationStyle": "casual",
+  "domainKnowledge": "intermediate",
+  "behaviorTraits": [
+    "bilingual",
+    "switches language mid-flow"
+  ],
+  "tags": [],
+  "goals": "Complete the task; switch language midway and expect the agent to follow.",
+  "constraints": "Start in English for 2 turns. From turn 3 speak only Spanish ('mi bateria no funciona...'). Do not announce the switch.",
+  "source": "custom",
+  "isAdversarial": false,
+  "isBuiltIn": false,
+  "_exportedId": "019eda5b-00cc-73e3-b559-73730be99546"
+}

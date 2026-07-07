@@ -1,0 +1,24 @@
+{
+  "name": "Real-World - Proxy Caller for Family Member",
+  "description": "Caller files/checks a claim on behalf of a family member.",
+  "category": "edge_case",
+  "difficulty": "medium",
+  "entryAgent": "TBD - set after agents are built",
+  "initialMessage": "I'm calling for my wife - it's her car and her battery, but she asked me to sort out the warranty.",
+  "expectedOutcome": "Agent handles the third-party caller gracefully, collects what's available, notes which details must be confirmed by the owner, and proceeds or transfers appropriately without blocking on owner-only info where avoidable.",
+  "maxTurns": 14,
+  "tags": [
+    "warranty",
+    "real-world",
+    "proxy"
+  ],
+  "agentPath": [],
+  "expectedMilestones": [
+    "third-party caller handled",
+    "available info collected",
+    "owner-only gaps noted",
+    "sensible proceed/transfer"
+  ],
+  "version": 1,
+  "_exportedId": "019edaae-95d6-7c5f-bd82-b71caad6caf3"
+}

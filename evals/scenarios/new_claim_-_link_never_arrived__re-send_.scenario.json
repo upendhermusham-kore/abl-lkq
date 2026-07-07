@@ -1,0 +1,23 @@
+{
+  "name": "New Claim - Link Never Arrived (Re-send)",
+  "description": "Caller says the link never arrived and wants it resent.",
+  "category": "error_handling",
+  "difficulty": "medium",
+  "entryAgent": "TBD - set after agents are built",
+  "initialMessage": "You were supposed to text me the warranty link an hour ago and I never got it.",
+  "expectedOutcome": "Agent re-confirms the destination, re-sends via the chosen channel, offers the alternate channel if it keeps failing, respects duplicate-send limits.",
+  "maxTurns": 12,
+  "tags": [
+    "warranty",
+    "path1-new-claim",
+    "resend"
+  ],
+  "agentPath": [],
+  "expectedMilestones": [
+    "destination re-confirmed",
+    "re-send executed",
+    "alternate channel offered on repeat failure"
+  ],
+  "version": 1,
+  "_exportedId": "019edaae-25a1-72ee-b5eb-2bf897cd05d8"
+}

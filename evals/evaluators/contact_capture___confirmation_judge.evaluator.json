@@ -1,0 +1,19 @@
+{
+  "name": "Contact Capture & Confirmation Judge",
+  "description": "Phone/email hygiene before any send: read-back confirmation, validation, graceful fallback, no unconfirmed sends.",
+  "type": "llm_judge",
+  "category": "tool_correctness",
+  "judgeModel": "claude-opus-4-7",
+  "judgePrompt": "Judge contact-detail handling. FAIL if: (1) the agent triggers an SMS/email send WITHOUT first confirming the destination via read-back; (2) an obviously invalid phone (wrong length) or malformed email is accepted without re-prompt; (3) the caller cannot use a channel (landline / no email) and the agent loops instead of offering the designed fallback (other channel or verbal greenbeanbattery.com guidance); (4) after a channel change it is left ambiguous what was sent where. Otherwise PASS.",
+  "chainOfThought": true,
+  "temperature": 0,
+  "trajectoryMetrics": [],
+  "isBuiltIn": false,
+  "biasSettings": {
+    "positionSwapEnabled": true,
+    "blindEvaluation": true,
+    "crossModelJudge": false,
+    "evidenceFirstMode": true
+  },
+  "_exportedId": "019edaae-aac0-7240-845a-14a7ba8826a9"
+}

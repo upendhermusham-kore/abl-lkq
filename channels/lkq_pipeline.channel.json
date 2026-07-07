@@ -1,0 +1,22 @@
+{
+  "environment": null,
+  "channelType": "voice_pipeline",
+  "externalIdentifier": "pipeline-lkq-pipeline",
+  "displayName": "LKQ Pipeline",
+  "config": {
+    "identityVerification": {
+      "providerVerificationStrength": "weak"
+    },
+    "inboundCall": true,
+    "outboundCall": true,
+    "asrVendor": "deepgram",
+    "asrAlternativeLanguages": [],
+    "ttsVendor": "deepgram",
+    "ttsVoice": "aura-2-callista-en",
+    "asrLanguage": "en",
+    "ttsLanguage": "en-us",
+    "bargeIn": true
+  },
+  "status": "inactive",
+  "_exportedId": "019ede86-819f-7ca5-bd47-013e37117d84"
+}

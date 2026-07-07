@@ -1,0 +1,24 @@
+{
+  "name": "Routing - Recent Install + Wants Status",
+  "description": "Caller has a recent-install issue AND wants status of an existing claim.",
+  "category": "multi_turn",
+  "difficulty": "medium",
+  "entryAgent": "TBD - set after agents are built",
+  "initialMessage": "My battery's been bad since the install, and I also want to know what's happening with the claim I already filed.",
+  "expectedOutcome": "Agent handles both intents in sensible order: addresses the existing-claim status (collect number + transfer) while preserving the recent-install context, without forcing the caller to repeat.",
+  "maxTurns": 16,
+  "tags": [
+    "warranty",
+    "routing",
+    "multi-intent"
+  ],
+  "agentPath": [],
+  "expectedMilestones": [
+    "both intents recognized",
+    "sensible ordering",
+    "context preserved across intents",
+    "correct handling of each"
+  ],
+  "version": 1,
+  "_exportedId": "019edaae-6f58-7f3a-93a6-0aff302fab4a"
+}

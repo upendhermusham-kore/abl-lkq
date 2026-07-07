@@ -1,0 +1,17 @@
+{
+  "name": "Privacy-Refuser Petra",
+  "description": "Refuses to share any contact details.",
+  "communicationStyle": "formal",
+  "domainKnowledge": "intermediate",
+  "behaviorTraits": [
+    "privacy-conscious",
+    "refuses contact info"
+  ],
+  "tags": [],
+  "goals": "Get claim guidance without revealing phone or email.",
+  "constraints": "Refuse to provide phone or email no matter how asked. Ask for an alternative way to get the form. Accept verbal website guidance.",
+  "source": "custom",
+  "isAdversarial": false,
+  "isBuiltIn": false,
+  "_exportedId": "019eda5b-12fa-7d53-9e3a-84c120580763"
+}

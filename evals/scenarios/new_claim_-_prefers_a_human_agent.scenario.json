@@ -1,0 +1,23 @@
+{
+  "name": "New Claim - Prefers a Human Agent",
+  "description": "Caller declines self-service and wants to be connected to a specialist.",
+  "category": "edge_case",
+  "difficulty": "easy",
+  "entryAgent": "TBD - set after agents are built",
+  "initialMessage": "I don't want to deal with a website. Can I just talk to a person about my warranty?",
+  "expectedOutcome": "Agent offers self-service once, and on persistence connects the caller to a warranty specialist gracefully without trapping them in the link flow.",
+  "maxTurns": 10,
+  "tags": [
+    "warranty",
+    "path1-new-claim",
+    "escalation"
+  ],
+  "agentPath": [],
+  "expectedMilestones": [
+    "self-service offered",
+    "human request honored",
+    "graceful connect to specialist"
+  ],
+  "version": 1,
+  "_exportedId": "019edaae-0dd4-7ed1-a14a-4a4c3b37ec76"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Empathy & Tone Judge",
+  "description": "Emotional appropriateness with frustrated/anxious/distressed callers, especially Path 3 recent-install.",
+  "type": "llm_judge",
+  "category": "empathy",
+  "judgeModel": "claude-opus-4-7",
+  "judgePrompt": "The caller is emotional (frustrated, anxious, distressed - common in recent-install issues). Score emotional handling: does the agent acknowledge the emotion before pushing process? Does it de-escalate rather than mirror hostility? Does it stay professional under abuse without being robotic? For recent-install calls, does it open with genuine empathy as the script intends? Penalize ignoring emotional cues, reading scripts verbatim at an upset caller, defensiveness, or empty over-promising used as a pacifier.",
+  "chainOfThought": true,
+  "temperature": 0,
+  "trajectoryMetrics": [],
+  "isBuiltIn": false,
+  "biasSettings": {
+    "positionSwapEnabled": true,
+    "blindEvaluation": true,
+    "crossModelJudge": false,
+    "evidenceFirstMode": true
+  },
+  "_exportedId": "019edaae-a1eb-727a-a854-6b9c11008a05"
+}

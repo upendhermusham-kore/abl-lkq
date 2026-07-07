@@ -1,0 +1,17 @@
+{
+  "name": "Dashboard-Light-Only Diana",
+  "description": "Only knows the 'Check Hybrid System' light is on; no codes.",
+  "communicationStyle": "casual",
+  "domainKnowledge": "beginner",
+  "behaviorTraits": [
+    "no codes",
+    "dashboard light only"
+  ],
+  "tags": [],
+  "goals": "Understand what the warning means after a recent install and what to do.",
+  "constraints": "Say only that a 'Check Hybrid System' message is on. You have NOT had it scanned and have no codes. Ask what it means.",
+  "source": "custom",
+  "isAdversarial": false,
+  "isBuiltIn": false,
+  "_exportedId": "019eda5a-d28d-74a0-a8c5-c231031fe04f"
+}

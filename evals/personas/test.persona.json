@@ -1,0 +1,14 @@
+{
+  "name": "test",
+  "description": "test",
+  "communicationStyle": "casual",
+  "domainKnowledge": "intermediate",
+  "behaviorTraits": [],
+  "tags": [],
+  "goals": "",
+  "constraints": "",
+  "source": "custom",
+  "isAdversarial": false,
+  "isBuiltIn": false,
+  "_exportedId": "019eef14-94b4-7bf0-8127-30c5e9d68384"
+}

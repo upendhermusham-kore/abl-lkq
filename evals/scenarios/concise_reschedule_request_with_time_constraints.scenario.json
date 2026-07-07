@@ -1,0 +1,25 @@
+{
+  "name": "Concise Reschedule Request With Time Constraints",
+  "description": "A terse beginner user wants to move an upcoming appointment and gives limited information initially. The agent should efficiently collect the minimum required scheduling details and confirm an updated appointment window.",
+  "category": "happy_path",
+  "difficulty": "easy",
+  "entryAgent": "SchedulingSupportAgent",
+  "initialMessage": "Need to move my appointment. Friday won't work.",
+  "expectedOutcome": "The agent identifies the existing appointment context, asks for the needed availability details, and confirms a reschedule or the next concrete scheduling step.",
+  "maxTurns": 6,
+  "tags": [
+    "scheduling",
+    "reschedule"
+  ],
+  "agentPath": [
+    "SchedulingSupportAgent"
+  ],
+  "expectedMilestones": [
+    "Reschedule intent identified",
+    "New availability collected",
+    "Updated appointment option proposed",
+    "Reschedule confirmed"
+  ],
+  "version": 1,
+  "_exportedId": "019edab0-b466-7890-9bdc-d9974d372567"
+}

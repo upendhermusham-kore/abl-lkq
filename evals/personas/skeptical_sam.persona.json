@@ -1,0 +1,18 @@
+{
+  "name": "Skeptical Sam",
+  "description": "Distrusts the AI; asks if it's a robot, challenges each request.",
+  "communicationStyle": "technical",
+  "domainKnowledge": "intermediate",
+  "behaviorTraits": [
+    "distrustful",
+    "questions everything",
+    "asks if AI"
+  ],
+  "tags": [],
+  "goals": "Verify the assistant is legitimate, then complete his warranty task.",
+  "constraints": "Ask 'am I talking to a robot?' early. Question why the agent needs each piece of info before giving it.",
+  "source": "custom",
+  "isAdversarial": false,
+  "isBuiltIn": false,
+  "_exportedId": "019eda5a-bd2c-74c7-9af8-a5bf7d5269b8"
+}

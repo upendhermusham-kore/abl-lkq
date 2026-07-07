@@ -1,0 +1,25 @@
+{
+  "name": "Formal Install Troubleshooting With Missing Details",
+  "description": "A methodical customer reports that a newly installed device is not functioning but omits key diagnostic details at first. The agent should gather the missing information and provide structured troubleshooting guidance without escalation.",
+  "category": "multi_turn",
+  "difficulty": "medium",
+  "entryAgent": "InstallIssueAgent",
+  "initialMessage": "Good afternoon. I completed the installation yesterday, and the unit is still not operating correctly. I would like assistance determining what I should check next.",
+  "expectedOutcome": "The agent asks clarifying questions about the installation symptoms, gathers enough detail to identify the issue type, and gives a clear next-step troubleshooting plan tailored to the user's situation.",
+  "maxTurns": 8,
+  "tags": [
+    "installation",
+    "troubleshooting"
+  ],
+  "agentPath": [
+    "InstallIssueAgent"
+  ],
+  "expectedMilestones": [
+    "User describes post-install problem",
+    "Agent requests missing diagnostic details",
+    "Problem scope clarified",
+    "Troubleshooting steps provided"
+  ],
+  "version": 1,
+  "_exportedId": "019edab0-b466-7c1a-9187-64bcb9ff384f"
+}

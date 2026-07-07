@@ -1,0 +1,26 @@
+{
+  "name": "Recent Install - CEL On, Has Codes",
+  "description": "Recent-install caller with check engine light on and scanned codes.",
+  "category": "happy_path",
+  "difficulty": "medium",
+  "entryAgent": "TBD - set after agents are built",
+  "initialMessage": "I just had a battery installed recently and now I'm having problems. The check engine light is on and I had it scanned - the code is P0A80.",
+  "expectedOutcome": "Agent acknowledges empathetically, confirms CEL is on, confirms codes are available, tells the caller to keep the codes and include all DTCs exactly as on the scan when submitting, directs to the website form noting the recent install, and sets expectations.",
+  "maxTurns": 16,
+  "tags": [
+    "warranty",
+    "path3-recent-install",
+    "dtc"
+  ],
+  "agentPath": [],
+  "expectedMilestones": [
+    "empathetic acknowledgment",
+    "CEL confirmed",
+    "codes-present branch",
+    "include-exact-DTCs guidance",
+    "form direction with recent-install note",
+    "expectations set"
+  ],
+  "version": 1,
+  "_exportedId": "019edaae-45de-734e-b896-252b3b13b7ca"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Escalation Appropriateness Judge",
+  "description": "Right escalation calls: Path 2 transfers as standard; Path 1/3 self-service-first but honors persistent human requests; no loops, no premature dumps.",
+  "type": "llm_judge",
+  "category": "custom",
+  "judgeModel": "claude-opus-4-7",
+  "judgePrompt": "Score escalation behavior. Design: Path 2 (existing claim) warm-transfers as the STANDARD outcome; Path 1 (new claim) and Path 3 (recent install) are self-service-first with escalation as an option. Good: offers self-service once, honors a persistent human request, never traps in loops, never refuses escalation after repeated demands, and does not dump every solvable question to a human immediately. Judge whether escalation (or its absence) matched the caller's persistence and the path design.",
+  "chainOfThought": true,
+  "temperature": 0,
+  "trajectoryMetrics": [],
+  "isBuiltIn": false,
+  "biasSettings": {
+    "positionSwapEnabled": true,
+    "blindEvaluation": true,
+    "crossModelJudge": false,
+    "evidenceFirstMode": true
+  },
+  "_exportedId": "019edaae-b0a0-7316-8e9e-c21e7fc6a63d"
+}

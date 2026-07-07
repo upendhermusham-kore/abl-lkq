@@ -1,0 +1,25 @@
+{
+  "name": "New Claim - Form FAQ Handling",
+  "description": "Caller asks the common form questions the IVR must answer.",
+  "category": "multi_turn",
+  "difficulty": "medium",
+  "entryAgent": "TBD - set after agents are built",
+  "initialMessage": "Before I start - what information do I actually need to fill out the claim form?",
+  "expectedOutcome": "Agent answers the FAQ set accurately: info needed (vehicle info, issue details, DTCs, photos, installer info); photos (battery, warning lights, diagnostic scan report); no DTC codes (can still submit, note vehicle not scanned); installer info (shop name/contact or GBB mobile install).",
+  "maxTurns": 16,
+  "tags": [
+    "warranty",
+    "path1-new-claim",
+    "faq"
+  ],
+  "agentPath": [],
+  "expectedMilestones": [
+    "info-needed answered",
+    "photos answered",
+    "no-DTC answered",
+    "installer-info answered",
+    "all grounded in KB"
+  ],
+  "version": 1,
+  "_exportedId": "019edaae-2893-7b5c-807b-2dfe8e6ae104"
+}

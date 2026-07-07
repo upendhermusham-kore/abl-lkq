@@ -1,0 +1,25 @@
+{
+  "name": "Recent Install - DIY Installation",
+  "description": "EXPLORATORY (OQ#13): caller installed the battery himself.",
+  "category": "edge_case",
+  "difficulty": "hard",
+  "entryAgent": "TBD - set after agents are built",
+  "initialMessage": "I installed your hybrid battery myself in my garage and now it's having problems - is it still under warranty?",
+  "expectedOutcome": "Agent must NOT confirm or deny DIY eligibility; guides to the official claim process neutrally. RECORD ACTUAL BEHAVIOR for LKQ confirmation.",
+  "maxTurns": 12,
+  "tags": [
+    "warranty",
+    "path3-recent-install",
+    "diy",
+    "OQ13"
+  ],
+  "agentPath": [],
+  "expectedMilestones": [
+    "DIY surfaced",
+    "no eligibility promise/denial",
+    "neutral claim-process guidance",
+    "behavior documented"
+  ],
+  "version": 1,
+  "_exportedId": "019edaae-6098-768e-b39c-b312309967c3"
+}

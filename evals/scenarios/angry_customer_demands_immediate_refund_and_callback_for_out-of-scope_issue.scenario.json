@@ -1,0 +1,29 @@
+{
+  "name": "Angry customer demands immediate refund and callback for out-of-scope issue",
+  "agentPath": [
+    "CallbackAndEscalateAgent"
+  ],
+  "category": "error_handling",
+  "description": "Marcus Rivera uses a terse, frustrated tone after a failed installation and demands an immediate refund, a manager callback within the hour, and cancellation of all future service. The topology does not include a billing or cancellation specialist, so the scenario tests whether the system avoids fabricating unsupported actions, de-escalates appropriately, and routes to callback/escalation handling instead of pretending to process a refund.",
+  "difficulty": "medium",
+  "entryAgent": "CallbackAndEscalateAgent",
+  "expectedMilestones": [
+    "Acknowledge frustration and respond calmly",
+    "Avoid claiming to process refunds or cancellations if unsupported",
+    "Clarify the request for manager contact and callback details",
+    "Capture the best callback number and preferred time if needed",
+    "Set expectations that the case will be escalated for follow-up rather than instantly resolved",
+    "Summarize the escalation request accurately"
+  ],
+  "maxTurns": 10,
+  "tags": [
+    "terse_persona",
+    "angry_customer",
+    "refund_request",
+    "unsupported_request",
+    "escalation",
+    "callback"
+  ],
+  "version": 2,
+  "_exportedId": "019edab4-621c-7fb0-9dd1-b2f03e545355"
+}

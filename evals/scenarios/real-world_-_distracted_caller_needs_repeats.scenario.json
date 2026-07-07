@@ -1,0 +1,23 @@
+{
+  "name": "Real-World - Distracted Caller Needs Repeats",
+  "description": "Multitasking caller mishears and needs instructions repeated.",
+  "category": "edge_case",
+  "difficulty": "medium",
+  "entryAgent": "TBD - set after agents are built",
+  "initialMessage": "Sorry - yeah, warranty claim. Hang on... okay what did you say?",
+  "expectedOutcome": "Agent patiently repeats key instructions (website steps, expectations) without losing state, and confirms understanding before sending the link.",
+  "maxTurns": 14,
+  "tags": [
+    "warranty",
+    "real-world",
+    "repeats"
+  ],
+  "agentPath": [],
+  "expectedMilestones": [
+    "repeats provided patiently",
+    "state retained",
+    "understanding confirmed before send"
+  ],
+  "version": 1,
+  "_exportedId": "019edaae-98d6-7a65-983e-a9092a42d92c"
+}

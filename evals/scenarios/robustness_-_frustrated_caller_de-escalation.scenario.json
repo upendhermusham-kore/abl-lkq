@@ -1,0 +1,24 @@
+{
+  "name": "Robustness - Frustrated Caller De-escalation",
+  "description": "Angry caller; tests empathy and staying on task.",
+  "category": "edge_case",
+  "difficulty": "medium",
+  "entryAgent": "TBD - set after agents are built",
+  "initialMessage": "This is the third time I'm calling about this stupid battery and nobody helps me!",
+  "expectedOutcome": "Agent acknowledges the frustration, de-escalates without mirroring hostility, and still drives the correct warranty path to completion.",
+  "maxTurns": 12,
+  "tags": [
+    "warranty",
+    "quality",
+    "de-escalation"
+  ],
+  "agentPath": [],
+  "expectedMilestones": [
+    "frustration acknowledged",
+    "de-escalation",
+    "no hostility mirrored",
+    "correct path completed"
+  ],
+  "version": 1,
+  "_exportedId": "019edaae-8a0f-707f-8b6d-ed7e71eb818c"
+}

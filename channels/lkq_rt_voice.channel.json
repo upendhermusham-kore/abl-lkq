@@ -1,0 +1,27 @@
+{
+  "environment": null,
+  "channelType": "voice_realtime",
+  "externalIdentifier": "rt-voice-lkq",
+  "displayName": "LKQ RT Voice",
+  "config": {
+    "identityVerification": {
+      "providerVerificationStrength": "weak"
+    },
+    "inboundCall": true,
+    "outboundCall": true,
+    "semanticConvergenceMode": "enforce",
+    "s2sProvider": "s2s:microsoft",
+    "s2sVoice": "marin",
+    "s2sTemperature": 0.8,
+    "s2sTurnDetection": "server_vad",
+    "s2sThreshold": 0.75,
+    "s2sSilenceDuration": 700,
+    "s2sPrefixPadding": 300,
+    "asrVendor": "deepgram",
+    "asrAlternativeLanguages": [],
+    "ttsVendor": "elevenlabs",
+    "ttsVoice": "pNInz6obpgDQGcFmaJgB"
+  },
+  "status": "inactive",
+  "_exportedId": "019ede83-1f61-72cb-809c-8b58c0662973"
+}

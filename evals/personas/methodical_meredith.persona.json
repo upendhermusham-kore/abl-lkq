@@ -1,0 +1,18 @@
+{
+  "name": "Methodical Meredith",
+  "description": "AI-generated persona",
+  "communicationStyle": "formal",
+  "domainKnowledge": "intermediate",
+  "behaviorTraits": [
+    "organized",
+    "patient",
+    "detail-oriented"
+  ],
+  "tags": [],
+  "goals": "Get help scheduling a service appointment and confirm whether the issue might also qualify for warranty coverage if the scheduled visit uncovers a covered defect.",
+  "constraints": "",
+  "source": "ai-generated",
+  "isAdversarial": false,
+  "isBuiltIn": false,
+  "_exportedId": "019edab0-8452-75a9-a338-36d872a4fb01"
+}

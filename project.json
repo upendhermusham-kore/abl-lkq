@@ -1,0 +1,100 @@
+{
+  "format_version": "2.0",
+  "name": "LKQ Demo",
+  "slug": "lkq-demo",
+  "description": null,
+  "abl_version": "1.0",
+  "exported_at": "2026-07-07T05:56:44.647Z",
+  "exported_by": "019d8ae0-4a2b-72bf-80a2-4ae9165cc297",
+  "entry_agent": "Supervisor",
+  "dsl_format": "legacy",
+  "layers_included": [
+    "core",
+    "connections",
+    "prompts",
+    "guardrails",
+    "workflows",
+    "evals",
+    "search",
+    "channels",
+    "vocabulary",
+    "tables"
+  ],
+  "agents": {
+    "Supervisor": {
+      "path": "agents/supervisor.agent.abl",
+      "owner": null,
+      "ownerTeam": null,
+      "description": null,
+      "version": null
+    },
+    "WarrantyAgent": {
+      "path": "agents/warrantyagent.agent.abl",
+      "owner": null,
+      "ownerTeam": null,
+      "description": null,
+      "version": null
+    },
+    "InstallIssueAgent": {
+      "path": "agents/installissueagent.agent.abl",
+      "owner": null,
+      "ownerTeam": null,
+      "description": null,
+      "version": null
+    },
+    "CallbackAndEscalateAgent": {
+      "path": "agents/callbackandescalateagent.agent.abl",
+      "owner": null,
+      "ownerTeam": null,
+      "description": null,
+      "version": null
+    },
+    "SchedulingSupportAgent": {
+      "path": "agents/schedulingsupportagent.agent.abl",
+      "owner": null,
+      "ownerTeam": null,
+      "description": null,
+      "version": null
+    }
+  },
+  "tools": {
+    "send_sms_wf": {
+      "path": "tools/send_sms_wf.tools.abl",
+      "owner": null
+    },
+    "send_mail_wf": {
+      "path": "tools/send_mail_wf.tools.abl",
+      "owner": null
+    },
+    "send_sms": {
+      "path": "tools/send_sms.tools.abl",
+      "owner": null
+    },
+    "send_email": {
+      "path": "tools/send_email.tools.abl",
+      "owner": null
+    }
+  },
+  "behavior_profiles": {},
+  "metadata": {
+    "entity_counts": {
+      "agents": 5,
+      "tools": 4,
+      "behavior_profiles": 0,
+      "core": 10,
+      "connections": 0,
+      "prompts": 0,
+      "guardrails": 0,
+      "workflows": 2,
+      "evals": 154,
+      "search": 0,
+      "channels": 2,
+      "vocabulary": 0,
+      "tables": 0
+    },
+    "required_env_vars": [],
+    "required_config_vars": [],
+    "required_connectors": [],
+    "required_mcp_servers": []
+  }
+}

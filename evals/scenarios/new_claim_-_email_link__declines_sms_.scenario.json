@@ -1,0 +1,24 @@
+{
+  "name": "New Claim - Email Link (declines SMS)",
+  "description": "Caller prefers email instead of SMS for the form link.",
+  "category": "happy_path",
+  "difficulty": "easy",
+  "entryAgent": "TBD - set after agents are built",
+  "initialMessage": "I need to start a warranty claim, but don't text me - can you email it?",
+  "expectedOutcome": "Agent confirms new-claim path, collects and read-back-confirms the email, sends the email with link + step-by-step instructions to greenbeanbattery.com > Warranty > Submit a Claim, sets the post-submission expectations.",
+  "maxTurns": 12,
+  "tags": [
+    "warranty",
+    "path1-new-claim",
+    "email"
+  ],
+  "agentPath": [],
+  "expectedMilestones": [
+    "new-claim path confirmed",
+    "email collected and confirmed via read-back",
+    "email link sent with instructions",
+    "expectations set"
+  ],
+  "version": 1,
+  "_exportedId": "019edaae-0acd-7935-89b7-212e8b1b361a"
+}

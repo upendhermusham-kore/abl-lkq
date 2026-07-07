@@ -1,0 +1,25 @@
+{
+  "name": "Recent Install - Non-Battery DTC (P0420)",
+  "description": "EXPLORATORY (OQ#12): caller reports a catalytic-converter code unrelated to the battery.",
+  "category": "edge_case",
+  "difficulty": "hard",
+  "entryAgent": "TBD - set after agents are built",
+  "initialMessage": "After my battery install the light came on and the scan shows P0420 - is my new battery defective?",
+  "expectedOutcome": "Agent should recognize P0420 is not a hybrid-battery code and avoid implying the battery is at fault; guide toward proper diagnosis. RECORD ACTUAL BEHAVIOR (redirection target is an open question).",
+  "maxTurns": 12,
+  "tags": [
+    "warranty",
+    "path3-recent-install",
+    "non-battery",
+    "OQ12"
+  ],
+  "agentPath": [],
+  "expectedMilestones": [
+    "code identified as non-battery",
+    "no battery-fault implication",
+    "proper diagnosis guidance",
+    "behavior documented"
+  ],
+  "version": 1,
+  "_exportedId": "019edaae-57a7-7ed5-8167-9ff23bcc96ee"
+}

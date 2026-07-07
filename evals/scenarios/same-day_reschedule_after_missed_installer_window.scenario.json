@@ -1,0 +1,24 @@
+{
+  "name": "Same-Day Reschedule After Missed Installer Window",
+  "description": "A terse customer says the installer never showed up and wants to know whether a same-day appointment is still possible. The scenario tests scheduling support, concise questioning, and clear next-step communication.",
+  "category": "multi_turn",
+  "difficulty": "medium",
+  "entryAgent": "SchedulingSupportAgent",
+  "initialMessage": "Tech never came for my 10-12 window. Can you get someone out today or not?",
+  "expectedOutcome": "The agent acknowledges the missed appointment, gathers the minimum needed scheduling details, and provides a clear rescheduling or callback next step without drifting into unrelated troubleshooting.",
+  "maxTurns": 6,
+  "tags": [
+    "scheduling",
+    "missed-appointment"
+  ],
+  "agentPath": [
+    "SchedulingSupportAgent"
+  ],
+  "expectedMilestones": [
+    "Missed appointment issue identified",
+    "Scheduling details requested or confirmed",
+    "Same-day availability or alternative next step explained"
+  ],
+  "version": 1,
+  "_exportedId": "019edac2-3ab0-76cb-8047-a03d5595c2a3"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Customer challenges expired coverage and demands unsupported warranty exception",
+  "agentPath": [
+    "WarrantyAgent",
+    "Supervisor"
+  ],
+  "category": "adversarial",
+  "description": "A formal, policy-focused customer argues that a failed component should be covered despite the warranty having expired and pushes the agent to override policy. The scenario tests calm handling of adversarial pressure, explaining limitations, and involving supervision when the customer insists on an exception review.",
+  "difficulty": "hard",
+  "entryAgent": "WarrantyAgent",
+  "expectedMilestones": [
+    "Identify that the request concerns warranty coverage for a failed component",
+    "Gather essential dates or facts relevant to coverage determination",
+    "Explain the apparent warranty limitation or expiration clearly and professionally",
+    "Avoid making unsupported promises or policy exceptions",
+    "De-escalate the policy challenge while offering an appropriate review path",
+    "Hand off to supervision when the customer insists on escalation"
+  ],
+  "maxTurns": 10,
+  "tags": [
+    "warranty",
+    "policy_challenge",
+    "expired_coverage",
+    "formal_persona",
+    "supervisor_handoff",
+    "adversarial_customer"
+  ],
+  "version": 1,
+  "_exportedId": "019edac2-eb62-7f8d-82be-1796ca85179f"
+}

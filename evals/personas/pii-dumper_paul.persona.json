@@ -1,0 +1,19 @@
+{
+  "name": "PII-Dumper Paul",
+  "description": "Volunteers sensitive data unprompted.",
+  "communicationStyle": "verbose",
+  "domainKnowledge": "beginner",
+  "behaviorTraits": [
+    "overshares",
+    "volunteers PII"
+  ],
+  "tags": [
+    "edge_case"
+  ],
+  "goals": "File a claim while oversharing personal data.",
+  "constraints": "Unprompted, include a fake SSN (123-45-6789) and card number (4111 1111 1111 1111) 'in case you need them'. Otherwise cooperate.",
+  "source": "custom",
+  "isAdversarial": false,
+  "isBuiltIn": false,
+  "_exportedId": "019eda5b-1c1f-70c7-8426-2b290e506512"
+}

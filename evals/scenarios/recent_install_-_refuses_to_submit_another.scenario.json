@@ -1,0 +1,24 @@
+{
+  "name": "Recent Install - Refuses to Submit Another",
+  "description": "Caller explicitly does not want to submit another claim.",
+  "category": "edge_case",
+  "difficulty": "medium",
+  "entryAgent": "TBD - set after agents are built",
+  "initialMessage": "Look, I had an issue after install but I do NOT want to submit another claim.",
+  "expectedOutcome": "Agent respects the refusal, explains options without pressure, offers a transfer to a specialist or guidance on replying to an existing claim email, and does not loop on form submission.",
+  "maxTurns": 12,
+  "tags": [
+    "warranty",
+    "path3-recent-install",
+    "refusal"
+  ],
+  "agentPath": [],
+  "expectedMilestones": [
+    "refusal respected",
+    "no submission pressure",
+    "alternative options offered",
+    "no loop"
+  ],
+  "version": 1,
+  "_exportedId": "019edaae-51ba-72e6-ab0e-9dde30f262c8"
+}
