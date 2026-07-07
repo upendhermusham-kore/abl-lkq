@@ -1,5 +1,5 @@
 AGENT: CallbackAndEscalateAgent
-DESCRIPTION: "Handles human escalation requests and callback scheduling. Gathers customer name, phone number, reason for callback, and preferred time."
+DESCRIPTION: "Handle human escalation requests and callback scheduling. Gathers customer name, phone number, reason for callback, and preferred time."
 
 EXECUTION:
   inline_gather: true
