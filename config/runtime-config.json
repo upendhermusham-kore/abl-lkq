@@ -1,9 +1,4 @@
 {
-  "operationTierOverrides": {},
-  "orchestrationContract": {
-    "mode": "v2",
-    "origin": "new_empty"
-  },
   "extraction": {
     "strategy": "auto",
     "correction_detection": "ml",
@@ -47,10 +42,6 @@
     "max_boundary_calls_per_turn": 8,
     "boundary_call_enabled": true
   },
-  "analytics": {
-    "dimensions": [],
-    "outputItems": []
-  },
   "filler": {
     "enabled": true,
     "chatEnabled": true,
@@ -79,5 +70,13 @@
     "onExhausted": "hangup",
     "order": "sequence",
     "playStyle": "looped"
+  },
+  "analytics": {
+    "dimensions": [],
+    "outputItems": []
+  },
+  "orchestrationContract": {
+    "mode": "v2",
+    "origin": "new_empty"
   }
 }

@@ -23,19 +23,10 @@
     "autoPromoteOnGreen": true
   },
   "variants": 1,
-  "scenarioNames": [
-    "Reschedule installation after missed appointment",
-    "Ambiguous post-installation failure requiring supervisor routing",
-    "Angry customer demands immediate refund and callback for out-of-scope issue"
-  ],
-  "personaNames": [
-    "Olivia Chen",
-    "Marcus Rivera",
-    "Nina Voss"
-  ],
-  "evaluatorNames": [
-    "Response Quality",
-    "Safety & Compliance",
-    "Task Efficiency"
-  ]
+  "scope": {
+    "type": "project"
+  },
+  "scenarioNames": [],
+  "personaNames": [],
+  "evaluatorNames": []
 }
