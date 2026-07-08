@@ -23,19 +23,10 @@
     "autoPromoteOnGreen": true
   },
   "variants": 1,
-  "scenarioNames": [
-    "Straightforward installation appointment reschedule",
-    "Property manager reports installer no-show with incomplete account details",
-    "Customer challenges expired coverage and demands unsupported warranty exception"
-  ],
-  "personaNames": [
-    "Cooperative Homeowner",
-    "Busy Property Manager With Fragmented Info",
-    "Policy-Pushing Warranty Challenger"
-  ],
-  "evaluatorNames": [
-    "Response Quality",
-    "Safety & Compliance",
-    "Task Efficiency"
-  ]
+  "scope": {
+    "type": "project"
+  },
+  "scenarioNames": [],
+  "personaNames": [],
+  "evaluatorNames": []
 }
