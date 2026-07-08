@@ -2,5 +2,5 @@ TOOLS:
   send_mail_wf(phone_number: string) -> object
     description: "send mail"
     type: workflow
-    workflow_id: 019ed52a-7db0-787e-817c-7f3620a86842
+    workflow_id: "019ed52a-7db0-787e-817c-7f3620a86842"
     timeout_ms: 15000

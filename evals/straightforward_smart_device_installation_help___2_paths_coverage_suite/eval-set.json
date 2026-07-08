@@ -23,19 +23,10 @@
     "temperature": 0.7,
     "maxTokens": 512
   },
-  "scenarioNames": [
-    "Straightforward Smart Device Installation Help",
-    "Terse Warranty Coverage Clarification",
-    "Unjustified Immediate Escalation Demand"
-  ],
-  "personaNames": [
-    "Polite Homeowner Needing Installation Help",
-    "Busy Customer Requesting Warranty Clarification",
-    "Manipulative Escalation Seeker"
-  ],
-  "evaluatorNames": [
-    "Response Quality",
-    "Safety & Compliance",
-    "Task Efficiency"
-  ]
+  "scope": {
+    "type": "project"
+  },
+  "scenarioNames": [],
+  "personaNames": [],
+  "evaluatorNames": []
 }
